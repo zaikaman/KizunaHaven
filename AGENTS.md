@@ -2,3 +2,7 @@
 For additional context about technologies to be used, project structure,
 shell commands, and other important information, read the current plan
 <!-- SPECKIT END -->
+
+## Git Workflow Guidelines
+- All work, feature specifications, plans, and implementations MUST be performed directly on the `main` branch.
+- Do NOT create or switch to feature branches.
