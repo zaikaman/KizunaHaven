@@ -5,7 +5,7 @@ import { createMockNetworkPair } from '../setup';
 
 describe('Foundational Infrastructure', () => {
   it('initializes world and loads KizunaProfile', () => {
-    const context = initializeWorld('test-user-1', 'Aria');
+    const context = initializeWorld('test-user-1', 'Aria', true);
     expect(context.isInitialized).toBe(true);
     expect(context.localUserId).toBe('test-user-1');
 

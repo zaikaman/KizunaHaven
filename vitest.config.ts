@@ -17,9 +17,15 @@ export default defineConfig({
       }
     }
   },
+  esbuild: {
+    jsxFactory: 'ReactEcs.createElement',
+    jsxFragment: 'ReactEcs.Fragment',
+    jsx: 'transform'
+  },
   resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './src')
-    }
+    alias: [
+      { find: /^~system\/.*/, replacement: path.resolve(__dirname, './tests/mocks/system-mock.ts') },
+      { find: '@', replacement: path.resolve(__dirname, './src') }
+    ]
   }
 });

@@ -20,8 +20,9 @@ export class InMemoryTransport implements MessageBusTransport {
   emit(event: string, data: unknown): void {
     const list = this.handlers.get(event);
     if (list) {
+      const cloned = JSON.parse(JSON.stringify(data));
       for (const handler of list) {
-        handler(data);
+        handler(cloned);
       }
     }
   }
@@ -85,6 +86,7 @@ export class StateBroadcaster {
     if (!rawMessage || typeof rawMessage !== 'object') return;
     const msg = rawMessage as Partial<NetworkMessage<any>>;
     if (!msg.type || !msg.senderId || !msg.payload) return;
+    if (msg.senderId === this.localUserId) return; // Ignore self-sent messages
 
     const registeredHandlers = this.handlers.get(msg.type);
     if (registeredHandlers && registeredHandlers.length > 0) {

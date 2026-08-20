@@ -50,20 +50,20 @@
 
 ### Tests for User Story 1
 
-- [ ] T010 [P] [US1] Unit test for deterministic daily prompt date hashing and vote tally in tests/unit/daily-hearth.test.ts
-- [ ] T011 [P] [US1] Unit test for bottle mail payload validation, storage, and 20-bottle cap in tests/unit/bottle-lagoon.test.ts
-- [ ] T012 [P] [US1] Unit test for Lumi companion FSM transitions (IDLE, FOLLOW, ASSIST) in tests/unit/lumi-companion.test.ts
+- [x] T010 [P] [US1] Unit test for deterministic daily prompt date hashing and vote tally in tests/unit/daily-hearth.test.ts
+- [x] T011 [P] [US1] Unit test for bottle mail payload validation, storage, and 20-bottle cap in tests/unit/bottle-lagoon.test.ts
+- [x] T012 [P] [US1] Unit test for Lumi companion FSM transitions (IDLE, FOLLOW, ASSIST) in tests/unit/lumi-companion.test.ts
 
 ### Implementation for User Story 1
 
-- [ ] T013 [P] [US1] Implement BottleItem and DailyHearth ECS components in src/components/AsynchComponents.ts
-- [ ] T014 [P] [US1] Implement LumiCompanion ECS component in src/components/LumiCompanion.ts
-- [ ] T015 [US1] Implement DailyHearthSystem for 24-hour question rotation in src/systems/DailyHearthSystem.ts
-- [ ] T016 [US1] Implement BottleLagoonSystem for spawning, floating physics, and archiving in src/systems/BottleLagoonSystem.ts
-- [ ] T017 [US1] Implement LumiCompanionSystem for autonomous guidance and plate assist in src/systems/LumiCompanionSystem.ts
-- [ ] T018 [P] [US1] Implement DailyPromptModal UI component in src/ui/DailyPromptModal.tsx
-- [ ] T019 [P] [US1] Implement BottleViewerModal UI component in src/ui/BottleViewerModal.tsx
-- [ ] T020 [US1] Assemble campfire, wishing tree, and lagoon 3D environment props in src/scenes/CampfireHubScene.ts
+- [x] T013 [P] [US1] Implement BottleItem and DailyHearth ECS components in src/components/AsynchComponents.ts
+- [x] T014 [P] [US1] Implement LumiCompanion ECS component in src/components/LumiCompanion.ts
+- [x] T015 [US1] Implement DailyHearthSystem for 24-hour question rotation in src/systems/DailyHearthSystem.ts
+- [x] T016 [US1] Implement BottleLagoonSystem for spawning, floating physics, and archiving in src/systems/BottleLagoonSystem.ts
+- [x] T017 [US1] Implement LumiCompanionSystem for autonomous guidance and plate assist in src/systems/LumiCompanionSystem.ts
+- [x] T018 [P] [US1] Implement DailyPromptModal UI component in src/ui/DailyPromptModal.tsx
+- [x] T019 [P] [US1] Implement BottleViewerModal UI component in src/ui/BottleViewerModal.tsx
+- [x] T020 [US1] Assemble campfire, wishing tree, and lagoon 3D environment props in src/scenes/CampfireHubScene.ts
 
 **Checkpoint**: User Story 1 is fully functional and testable as an autonomous solo MVP.
 
