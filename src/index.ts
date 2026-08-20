@@ -30,6 +30,16 @@ let context: WorldContext | null = null;
 let isDailyPromptOpen = false;
 let isBottleViewerOpen = false;
 let selectedBottle: BottleMessage | null = null;
+let toastMessage: string | null = null;
+let toastTimer: any = null;
+
+function showToast(msg: string): void {
+  toastMessage = msg;
+  if (toastTimer) clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => {
+    toastMessage = null;
+  }, 3500);
+}
 
 export function initializeWorld(userId = 'local-player', userName = 'Explorer', isHeadless = false): WorldContext {
   const persistence = new PersistenceManager();
@@ -59,8 +69,8 @@ export function initializeWorld(userId = 'local-player', userName = 'Explorer', 
         isDailyPromptOpen = false;
       },
       onLumiInteract: () => {
-        console.log('[Kizuna Haven] Pet Lumi! +10 XP');
         persistence.addXp(userId, 10);
+        showToast('Interacted with Lumi Spirit Companion (+10 XP)');
       }
     });
 
@@ -74,7 +84,9 @@ export function initializeWorld(userId = 'local-player', userName = 'Explorer', 
         isBottleViewerOpen,
         selectedBottle,
         kizunaLevel: p.kizunaLevel,
-        kizunaTitle: tier.title
+        kizunaXp: p.kizunaXp,
+        kizunaTitle: tier.title,
+        toastMessage
       };
     };
 
@@ -92,23 +104,28 @@ export function initializeWorld(userId = 'local-player', userName = 'Explorer', 
           selectedOptionIndex: optionIndex,
           timestamp: Date.now()
         });
+        isDailyPromptOpen = false;
+        const optText = activePrompt.options?.[optionIndex] ?? 'Option';
+        showToast(`Answer Recorded: "${optText}" (+50 XP)`);
       },
       onReactToBottle: (bottleId: string, reaction: BottleReactionType) => {
         lagoonSystem.reactToBottle(bottleId, reaction);
         if (selectedBottle && selectedBottle.bottleId === bottleId) {
           selectedBottle = lagoonSystem.getBottleById(bottleId) ?? null;
         }
+        showToast('Reacted to bottle note (+5 XP)');
       },
       onOpenBottleComposer: () => {
         // Cast sample friendly bottle
         lagoonSystem.launchBottle({
           authorId: userId,
           authorName: userName,
-          content: 'Sending warm vibes from the campfire! ✨',
+          content: 'Sending warm vibes from the campfire.',
           ribbonColor: 'gold'
         });
         campfireScene?.spawnLagoonBottles();
         isBottleViewerOpen = false;
+        showToast('Cast a Message Bottle into the Lagoon (+30 XP)');
       },
       onCloseModals: () => {
         isDailyPromptOpen = false;

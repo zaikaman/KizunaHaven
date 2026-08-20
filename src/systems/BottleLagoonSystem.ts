@@ -44,7 +44,7 @@ export class BottleLagoonSystem {
         {
           bottleId: 'seed-bottle-1',
           authorId: 'system-spirit',
-          authorName: 'Lumi ✨',
+          authorName: 'Lumi',
           content: 'Welcome to Kizuna Haven! Take a deep breath and enjoy the stars.',
           createdAt: Date.now() - 3600000,
           reactions: { heart: 5, star: 8, handshake: 3 },

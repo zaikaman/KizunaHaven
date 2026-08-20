@@ -1,11 +1,12 @@
 /**
- * Kizuna Haven - Main React-ECS UI Overlay Container
+ * Kizuna Haven - Main React-ECS Game HUD & UI Overlay Container
  */
 
 import ReactEcs, { UiEntity, Label, Button } from '@dcl/sdk/react-ecs';
 import { DailyPrompt, BottleMessage, BottleReactionType } from '../types';
 import { DailyPromptModal } from './DailyPromptModal';
 import { BottleViewerModal } from './BottleViewerModal';
+import { DCL_THEME } from './GameQuestCard';
 
 export interface MainAppUIState {
   isDailyPromptOpen: boolean;
@@ -13,7 +14,9 @@ export interface MainAppUIState {
   isBottleViewerOpen: boolean;
   selectedBottle: BottleMessage | null;
   kizunaLevel: number;
+  kizunaXp: number;
   kizunaTitle: string;
+  toastMessage: string | null;
 }
 
 export interface MainAppUICallbacks {
@@ -40,49 +43,76 @@ export function createMainAppUI(
           position: { top: 0, left: 0 }
         }}
       >
-        {/* Top Mobile Status Header (Safe Area) */}
+        {/* Top Game HUD Header (Centered in safe viewport area) */}
         <UiEntity
           uiTransform={{
             width: '100%',
-            height: 52,
+            height: 48,
             positionType: 'absolute',
-            position: { top: 12, left: 0 },
+            position: { top: 20, left: 0 },
             flexDirection: 'row',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            padding: { left: 16, right: 16 }
+            justifyContent: 'center',
+            alignItems: 'center'
           }}
         >
-          {/* Level Tier Badge */}
+          {/* Level & XP Status Capsule */}
           <UiEntity
             uiTransform={{
               height: 38,
-              padding: { left: 12, right: 12 },
-              justifyContent: 'center',
-              alignItems: 'center'
+              padding: { left: 16, right: 18 },
+              flexDirection: 'row',
+              alignItems: 'center',
+              margin: { right: 12 }
             }}
-            uiBackground={{ color: { r: 0.1, g: 0.15, b: 0.25, a: 0.85 } }}
+            uiBackground={{ color: DCL_THEME.CARD_BG }}
           >
             <Label
-              value={`🌸 Tier ${state.kizunaLevel} • ${state.kizunaTitle}`}
+              value={`TIER ${state.kizunaLevel}`}
               fontSize={13}
-              color={{ r: 0.98, g: 0.85, b: 0.2, a: 1 }}
+              color={DCL_THEME.TEXT_GOLD}
+              uiTransform={{ margin: { right: 8 } }}
+            />
+            <Label
+              value={`-  ${state.kizunaTitle}  (${state.kizunaXp} XP)`}
+              fontSize={13}
+              color={DCL_THEME.TEXT_WHITE}
             />
           </UiEntity>
 
-          {/* Quick Daily Prompt Button */}
+          {/* DCL Gaming Quest Action Button */}
           <Button
-            value="🔥 Daily Question"
-            variant="primary"
+            value="HEARTH QUEST"
             fontSize={12}
             uiTransform={{
-              height: 40,
-              padding: { left: 14, right: 14 }
+              height: 38,
+              padding: { left: 18, right: 18 }
             }}
-            uiBackground={{ color: { r: 0.98, g: 0.45, b: 0.09, a: 0.9 } }}
+            uiBackground={{ color: DCL_THEME.ORANGE_BADGE }}
             onMouseDown={callbacks.onToggleDailyPrompt}
           />
         </UiEntity>
+
+        {/* Celebration Toast Banner (DCL Reward Banner Style) */}
+        {state.toastMessage && (
+          <UiEntity
+            uiTransform={{
+              positionType: 'absolute',
+              position: { top: 76, left: '25%' },
+              width: '50%',
+              height: 42,
+              justifyContent: 'center',
+              alignItems: 'center',
+              padding: { left: 16, right: 16 }
+            }}
+            uiBackground={{ color: DCL_THEME.CORAL_ACTION }}
+          >
+            <Label
+              value={state.toastMessage}
+              fontSize={13}
+              color={DCL_THEME.TEXT_WHITE}
+            />
+          </UiEntity>
+        )}
 
         {/* Modals */}
         <DailyPromptModal

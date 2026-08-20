@@ -1,0 +1,544 @@
+# Decentraland Docs
+
+## Players
+
+- [Welcome](https://docs.decentraland.org/readme.md): Everything you need to know to show up, hang out, and be part of Decentraland.
+- [About Decentraland](https://docs.decentraland.org/introduction/about-decentraland.md): General Overview about Decentraland
+- [Whitepapers](https://docs.decentraland.org/introduction/whitepaper.md): Read more about the philosophy and design of Decentraland in our white paper.
+- [Decentraland on Mobile](https://docs.decentraland.org/mobile-app/mobile-app.md): Decentraland on iOS and Android.
+- [Getting started](https://docs.decentraland.org/mobile-app/getting-started.md): First-time setup for the Decentraland mobile app.
+- [Controls](https://docs.decentraland.org/mobile-app/controls.md): How to move, interact, chat, and use the camera with touch.
+- [Troubleshooting](https://docs.decentraland.org/mobile-app/troubleshooting.md): Common issues with the Decentraland mobile app and where to get help.
+- [Decentraland 101](https://docs.decentraland.org/faqs/decentraland-101.md): General Overview about Decentraland
+- [Creating in Decentraland](https://docs.decentraland.org/faqs/creating-in-decentraland.md): How to create content for Decentraland
+- [Posting Events](https://docs.decentraland.org/faqs/posting-events.md): How to post events in Decentraland
+- [My Account](https://docs.decentraland.org/faqs/my-account.md): Account settings
+- [Security](https://docs.decentraland.org/faqs/security.md): Security recommendations
+- [Places](https://docs.decentraland.org/faqs/places.md): Places
+- [Contact & Support](https://docs.decentraland.org/faqs/contact-and-support.md): How to get in touch with Decentraland and Support
+- [Overview](https://docs.decentraland.org/in-world/overview.md): Exploring Decentraland Overview
+- [Finding Events](https://docs.decentraland.org/in-world/finding-events.md): Finding Events in Decentraland
+- [Friends & Chatting](https://docs.decentraland.org/in-world/friends-and-chatting.md): Friends & Chatting in Decentraland
+- [Customizing Your Avatar](https://docs.decentraland.org/in-world/customizing-your-avatar.md): Customizing Your Avatar in Decentraland
+- [Your Profile](https://docs.decentraland.org/in-world/your-profile.md): Your Profile in Decentraland
+- [Earning Rewards](https://docs.decentraland.org/in-world/earning-rewards.md): Earning Rewards in Decentraland
+- [Exploring](https://docs.decentraland.org/in-world/exploring.md): Exploring Decentraland
+- [Settings & Performance](https://docs.decentraland.org/in-world/settings-and-performance.md): Settings & Performance in Decentraland
+- [Shortcuts & Chat Commands](https://docs.decentraland.org/in-world/shortcuts-and-chat-commands.md): Shortcuts & Chat Commands in Decentraland
+- [Marketplace](https://docs.decentraland.org/marketplace/marketplace.md): Meet the LAND marketplace
+- [LAND Manager](https://docs.decentraland.org/marketplace/land-manager.md): Manage LAND and Estate tokens
+- [Rentals](https://docs.decentraland.org/marketplace/rentals.md): LAND Rentals
+- [Get a Wallet](https://docs.decentraland.org/blockchain-integration/get-a-wallet.md): Decentraland uses the Ethereum blockchain to record the ownership of all digital assets and tradable items.
+- [About the Blockchain](https://docs.decentraland.org/blockchain-integration/ethereum-essentials.md): How Decentraland uses the Ethereum blockchain.
+- [Transactions in Polygon](https://docs.decentraland.org/blockchain-integration/transactions-in-polygon.md): Frequently Asked Questions about Polygon transactions
+- [DAO User Guide](https://docs.decentraland.org/dao/dao-userguide.md): How to use the Decentraland DAO
+- [Overview](https://docs.decentraland.org/dao/dao.md)
+- [What is the DAO](https://docs.decentraland.org/dao/dao/what-is-the-dao.md): The DAO is the decision making platform for Decentraland.
+- [How does the DAO work](https://docs.decentraland.org/dao/dao/how-does-the-dao-work.md): Overview of the different platforms and entities that make up the Decentraland DAO.
+- [What can you do with the DAO](https://docs.decentraland.org/dao/dao/what-can-you-do-with-the-dao.md): The DAO allows users to create and vote on proposals that shape the metaverse.
+- [Participation Requirements](https://docs.decentraland.org/dao/dao/what-do-you-need-to-participate.md): An explanation of what you need in order to create and vote in proposals in the DAO.
+- [The DAO Fund](https://docs.decentraland.org/dao/dao/the-dao-fund.md): An overview and discussion of the DAO's MANA
+- [DAO Limitations](https://docs.decentraland.org/dao/dao/the-daos-limitations.md): The DAO is a specific governance tool with a finite amount of power.
+- [The DAO Smart Contracts](https://docs.decentraland.org/dao/dao/what-smart-contracts-does-the-dao-control.md): The DAO owns and controls Decentraland's most critical smart contracts.
+
+## Content Creators
+
+- [Welcome Creator](https://docs.decentraland.org/creator/readme.md)
+- [Example Scenes](https://docs.decentraland.org/creator/tutorials-and-examples/examples.md)
+- [SDK & Editor Videos](https://docs.decentraland.org/creator/tutorials-and-examples/video.md): Video tutorials for Decentraland SDK and Scene Editor
+- [Emote Videos](https://docs.decentraland.org/creator/tutorials-and-examples/video-emotes.md): Video tutorials for creating emotes in Decentraland
+- [Wearable Tutorial Series](https://docs.decentraland.org/creator/tutorials-and-examples/creating-a-wearable-series.md): This 6 part tutorial series will teach you how to create and publish a Wearable from start to finish without prior knowledge of Blender or Decentraland with professional artist KJ Walker as your guide
+- [Wearables](https://docs.decentraland.org/creator/wearables-and-emotes/wearables.md): An overview of wearables NFTs for Decentraland
+- [Creating Wearables](https://docs.decentraland.org/creator/wearables-and-emotes/wearables/creating-wearables.md): Tips And Guidelines For Creating Decentraland Wearables
+- [Spring Bones](https://docs.decentraland.org/creator/wearables-and-emotes/wearables/spring-bones.md): Add dynamic physics to wearables with Spring Bones
+- [Linked Wearables](https://docs.decentraland.org/creator/wearables-and-emotes/wearables/linked-wearables.md): Wearable Representations Of 3rd Party Tokens
+- [Emotes](https://docs.decentraland.org/creator/wearables-and-emotes/emotes.md): An overview of emotes NFTs for Decentraland
+- [Creating Emotes](https://docs.decentraland.org/creator/wearables-and-emotes/emotes/creating-emotes.md): Tips and guidelines for creating Decentraland Emotes.
+- [Avatar Rig](https://docs.decentraland.org/creator/wearables-and-emotes/emotes/avatar-rig.md): Basics about the avatar rig.
+- [Particles in Emotes](https://docs.decentraland.org/creator/wearables-and-emotes/emotes/particles-in-emotes.md): How to export particles in your Emotes using Armature
+- [Props and Sounds](https://docs.decentraland.org/creator/wearables-and-emotes/emotes/props-and-sounds.md): Guidelines to add props and sounds to the emotes.
+- [Rig Features](https://docs.decentraland.org/creator/wearables-and-emotes/emotes/rig-features.md): Features about the avatar rig and downloadable file.
+- [Manage Collections](https://docs.decentraland.org/creator/wearables-and-emotes/manage-collections.md): Manage your wearables and emotes collections
+- [Creating a Collection](https://docs.decentraland.org/creator/wearables-and-emotes/manage-collections/creating-a-collection.md): Guidelines to Create a Decentraland Collection
+- [Uploading Wearables](https://docs.decentraland.org/creator/wearables-and-emotes/manage-collections/uploading-wearables.md): Guidelines to Upload Wearables to the Editor
+- [Uploading Emotes](https://docs.decentraland.org/creator/wearables-and-emotes/manage-collections/uploading-emotes.md): Guidelines to upload Emotes to the Editor
+- [Uploading Smart Wearables](https://docs.decentraland.org/creator/wearables-and-emotes/manage-collections/uploading-smart-wearables.md): Guidelines to Upload Smart Wearables to the Editor
+- [Publishing Collections](https://docs.decentraland.org/creator/wearables-and-emotes/publishing-collections.md)
+- [Publishing Collections](https://docs.decentraland.org/creator/wearables-and-emotes/publishing-collections/publishing-collections.md): A description of the publication and approval process for Decentraland wearables
+- [Curation Committee](https://docs.decentraland.org/creator/wearables-and-emotes/publishing-collections/curation-committee.md): A description and discussion of the Wearables Curation Committee
+- [Get started](https://docs.decentraland.org/creator/scene-editor/get-started.md): Get started with the Decentraland Scene Editor
+- [Editing Scenes](https://docs.decentraland.org/creator/scene-editor/get-started/about-editor.md): The scene Editor is a simple visual tool that lets you create and publish Decentraland scenes.
+- [Creator Hub Installation](https://docs.decentraland.org/creator/scene-editor/get-started/editor-installation.md): How to install the scene editor.
+- [Manage scenes](https://docs.decentraland.org/creator/scene-editor/get-started/manage-scenes.md): Managing your scene projects
+- [Migrate into Creator Hub](https://docs.decentraland.org/creator/scene-editor/get-started/migrate-from-web.md): Migrate your scene from the Web Editor to the Creator Hub.
+- [Scene Editor Essentials](https://docs.decentraland.org/creator/scene-editor/get-started/scene-editor-essentials.md): How to use the Scene Editor
+- [Build](https://docs.decentraland.org/creator/scene-editor/build.md): Build and customize your scene with visual tools
+- [Import custom assets](https://docs.decentraland.org/creator/scene-editor/build/import-items.md): Import your own 3D models, images, sound, etc to use in your scenes.
+- [Entities and Components](https://docs.decentraland.org/creator/scene-editor/build/components.md): Understand how an item's components work
+- [NFTs](https://docs.decentraland.org/creator/scene-editor/build/nfts.md): Adding NFT Portraits to your scenes
+- [Spawn Areas](https://docs.decentraland.org/creator/scene-editor/build/spawn-areas.md): Using Spawn Areas to set the Spawning position & Spawn Camera position visually.
+- [Interactivity](https://docs.decentraland.org/creator/scene-editor/interactivity.md): Add interactivity to your scene
+- [Smart Items - Basic](https://docs.decentraland.org/creator/scene-editor/interactivity/smart-items.md): Using smart items in your scene to add interactivity.
+- [Trigger Area](https://docs.decentraland.org/creator/scene-editor/interactivity/trigger-area.md): React to the player's position
+- [Video Screen](https://docs.decentraland.org/creator/scene-editor/interactivity/video-screen.md): Play Videos in your scene
+- [States and conditions](https://docs.decentraland.org/creator/scene-editor/interactivity/states-and-conditions.md): Managing item states and conditional logic
+- [Smart Items - Advanced](https://docs.decentraland.org/creator/scene-editor/interactivity/smart-items-advanced.md): Using smart items in your scene to add interactivity.
+- [Make any item smart](https://docs.decentraland.org/creator/scene-editor/interactivity/make-any-item-smart.md): Configure any item to behave like a smart item.
+- [Custom Items](https://docs.decentraland.org/creator/scene-editor/interactivity/custom-items.md): Create your own custom items to reuse on any of your scenes.
+- [Extend with code](https://docs.decentraland.org/creator/scene-editor/extend-with-code.md)
+- [Combine with code](https://docs.decentraland.org/creator/scene-editor/extend-with-code/overview.md): Combine content created on the Scene Editor with the power of writing code.
+- [Reference items in code](https://docs.decentraland.org/creator/scene-editor/extend-with-code/reference-items.md): Reference items in your code by name or by tag.
+- [Using the Script Component](https://docs.decentraland.org/creator/scene-editor/extend-with-code/script-component.md): Use the Script component to give code functionality, without the need to dig into the whole project structure.
+- [Configure](https://docs.decentraland.org/creator/scene-editor/configure.md): Configure scene settings and properties
+- [Scene Settings](https://docs.decentraland.org/creator/scene-editor/configure/scene-settings.md): Edit your scene's metadata
+- [Publish](https://docs.decentraland.org/creator/scene-editor/publish.md): Publish your scene to Decentraland
+- [Publish a Scene](https://docs.decentraland.org/creator/scene-editor/publish/publish-scene.md): How to publish your scene to LAND or a NAME.
+- [Operate live](https://docs.decentraland.org/creator/scene-editor/operate-live.md)
+- [Scene Admin](https://docs.decentraland.org/creator/scene-editor/operate-live/scene-admin.md): Scene administrators have special control over what happens in the scene in real time.
+- [Live Streaming](https://docs.decentraland.org/creator/scene-editor/operate-live/live-streaming.md): Stream live video into your scene using the Video Screen and Admin Tools.
+- [Server Data](https://docs.decentraland.org/creator/scene-editor/operate-live/server-data.md): View and edit the live data stored by your scene's Multiplayer Server.
+- [Editor FAQs](https://docs.decentraland.org/creator/scene-editor/editor-faqs.md)
+- [Getting started](https://docs.decentraland.org/creator/scenes-sdk7/getting-started.md)
+- [SDK Quick Start](https://docs.decentraland.org/creator/scenes-sdk7/getting-started/sdk-101.md): Getting started with the Decentraland SDK
+- [Development Workflow](https://docs.decentraland.org/creator/scenes-sdk7/getting-started/dev-workflow.md): Recommended procedure for developing and testing a scene
+- [Preview Your Scene](https://docs.decentraland.org/creator/scenes-sdk7/getting-started/preview-scene.md): What you can see in a scene's preview
+- [Using the CLI](https://docs.decentraland.org/creator/scenes-sdk7/getting-started/using-the-cli.md): How to use the Decentraland CLI to run, deploy, etc
+- [Coding essentials](https://docs.decentraland.org/creator/scenes-sdk7/getting-started/coding-scenes.md): This set will help you understand how things work in the client and SDK of decentraland.
+- [Vibe Coding with AI](https://docs.decentraland.org/creator/scenes-sdk7/getting-started/vibe-coding.md): Use AI assistants to build Decentraland scenes by describing what you want in plain language.
+- [Useful Resources](https://docs.decentraland.org/creator/scenes-sdk7/getting-started/useful-resources.md): Tools, add-ons, asset libraries, and example projects that speed up your Decentraland creation workflow.
+- [Designing the experience](https://docs.decentraland.org/creator/scenes-sdk7/designing-the-experience.md)
+- [Design Games](https://docs.decentraland.org/creator/scenes-sdk7/designing-the-experience/design-games.md): What you need to keep in mind when designing a game for Decentraland.
+- [MVP Guidelines](https://docs.decentraland.org/creator/scenes-sdk7/designing-the-experience/mvp-guidelines.md): Recommended guidelines for producing your first MVP scene or experience using the SDK
+- [UX & UI Guide](https://docs.decentraland.org/creator/scenes-sdk7/designing-the-experience/ux-ui-guide.md): Tips and practices to build scenes where players will want to stay and return!
+- [Architecture](https://docs.decentraland.org/creator/scenes-sdk7/architecture.md)
+- [Entities & Components](https://docs.decentraland.org/creator/scenes-sdk7/architecture/entities-components.md): Learn the essentials about entities and components in a Decentraland scene
+- [Systems](https://docs.decentraland.org/creator/scenes-sdk7/architecture/systems.md): Learn how systems are used to update the scene state
+- [Custom Components](https://docs.decentraland.org/creator/scenes-sdk7/architecture/custom-components.md): Create a custom component to handle specific data related to an entity
+- [Composites](https://docs.decentraland.org/creator/scenes-sdk7/architecture/composites.md): Spawn a tree of entities and components at runtime from a composite file
+- [Querying Components](https://docs.decentraland.org/creator/scenes-sdk7/architecture/querying-components.md): Learn about how to obtain lists of entities that have components in common, to make checking or updating them easier.
+- [Subscribe to Changes](https://docs.decentraland.org/creator/scenes-sdk7/architecture/subscribe-to-changes.md): Detect changes in a component and run functions on every change
+- [Data-Oriented Programming](https://docs.decentraland.org/creator/scenes-sdk7/architecture/data-oriented-programming.md): The Data Oriented Programming is a powerful approach to programming gets the most out of performance.
+- [Kinds of projects](https://docs.decentraland.org/creator/scenes-sdk7/kinds-of-projects.md)
+- [Overview](https://docs.decentraland.org/creator/scenes-sdk7/kinds-of-projects/kinds-of-project.md): The available kinds of projects you can create in Decentraland.
+- [Scene Files](https://docs.decentraland.org/creator/scenes-sdk7/kinds-of-projects/scene-files.md): Default files created in a new scene.
+- [Scene Metadata](https://docs.decentraland.org/creator/scenes-sdk7/kinds-of-projects/scene-metadata.md): Learn how to set up a scene and configure its metadata.
+- [Smart Wearables](https://docs.decentraland.org/creator/scenes-sdk7/kinds-of-projects/smart-wearables.md): Create wearables with interactive capabilities
+- [Workspaces](https://docs.decentraland.org/creator/scenes-sdk7/kinds-of-projects/workspaces.md): Run multiple DCL projects at a time
+- [Portable Experiences](https://docs.decentraland.org/creator/scenes-sdk7/kinds-of-projects/portable-experiences.md): Portable experiences
+- [3D content essentials](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials.md)
+- [3D Model Animations](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/3d-model-animations.md): How to animate 3D models in your scene
+- [Camera](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/camera.md): Learn how to control the player's camera
+- [Colliders](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/colliders.md): Learn about the different components that give entities their 3D shape and collision.
+- [Color Types](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/color-types.md): How to define color values
+- [Entity Positioning](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/entity-positioning.md): How to set the position, rotation and scale of an entity in a scene
+- [Lights](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/lights.md): Learn how to use lights in your scene
+- [Materials](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/materials.md): Learn how to add materials and textures to entities with primitive shapes.
+- [Move Entities](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/move-entities.md): How to move, rotate and scale an entity gradually over time, with incremental changes.
+- [Particle System](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/particle-system.md): Add particle effects like fire, rain, sparks, and magic auras to your scene
+- [Shape Components](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/shape-components.md): Learn about the different components that give entities their 3D shape and collision.
+- [Sounds](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/sounds.md): Learn how to add sounds to your scene.
+- [Special Types](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/special-types.md): Learn what special types exist, including Vector, Quaternions, and more.
+- [Text](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/text.md): How to add text to your scene
+- [Trigger Areas](https://docs.decentraland.org/creator/scenes-sdk7/3d-content-essentials/trigger-areas.md): Learn how to use trigger areas in your scene
+- [Media](https://docs.decentraland.org/creator/scenes-sdk7/media.md): Add media content to your scenes
+- [Audio Analysis](https://docs.decentraland.org/creator/scenes-sdk7/media/audio-analysis.md): Read real-time amplitude and frequency data from audio playing in your scene to drive reactive visuals.
+- [Audio Streaming](https://docs.decentraland.org/creator/scenes-sdk7/media/audio-streaming.md): Play live audio streams in your scene.
+- [Display a Certified NFT](https://docs.decentraland.org/creator/scenes-sdk7/media/display-a-certified-nft.md): Learn how to display a certified NFT that you own in your scene
+- [Video Playing](https://docs.decentraland.org/creator/scenes-sdk7/media/video-playing.md): Stream video into a scene
+- [Debugging](https://docs.decentraland.org/creator/scenes-sdk7/debugging.md): Debug and troubleshoot your scenes
+- [Debug in Preview](https://docs.decentraland.org/creator/scenes-sdk7/debugging/debug-in-preview.md): How you can debug your scene while running it locally in preview
+- [Debug in Production](https://docs.decentraland.org/creator/scenes-sdk7/debugging/debug-in-prod.md): How you can debug your scene that is running inside Decentraland
+- [Report a Bug](https://docs.decentraland.org/creator/scenes-sdk7/debugging/report-bug.md): How you can report a bug so that it gets reviewed and fixed
+- [Troubleshooting](https://docs.decentraland.org/creator/scenes-sdk7/debugging/troubleshooting.md): Fixes for common problems
+- [Optimizing](https://docs.decentraland.org/creator/scenes-sdk7/optimizing.md): Optimize your scenes for performance
+- [Performance Optimization](https://docs.decentraland.org/creator/scenes-sdk7/optimizing/performance-optimization.md): Optimize your scene to load fast and run smoothly for all players.
+- [Pre-load Resources](https://docs.decentraland.org/creator/scenes-sdk7/optimizing/pre-load-resources.md): Pre-loading Resources allows assets to be downloaded at scene startup so they are ready when the player interacts with them for the first time.
+- [Scene Limitations](https://docs.decentraland.org/creator/scenes-sdk7/optimizing/scene-limitations.md): How many things can I put on my scene?
+- [Publishing](https://docs.decentraland.org/creator/scenes-sdk7/publishing.md): Publish your scenes to Decentraland
+- [Make Discoverable](https://docs.decentraland.org/creator/scenes-sdk7/publishing/make-discoverable.md): Help players discover your scene
+- [Publishing Options](https://docs.decentraland.org/creator/scenes-sdk7/publishing/publishing-options.md): How to obtain LAND or permissions to publish your scene
+- [Publishing](https://docs.decentraland.org/creator/scenes-sdk7/publishing/publishing.md): How to publish my project?
+- [Interactivity](https://docs.decentraland.org/creator/scenes-sdk7/interactivity.md): Create interactive experiences
+- [Button Events](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/button-events.md): Handle button clicks and pointer events
+- [Click Events](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/button-events/click-events.md): Learn how to handle user clicks in your scene.
+- [Register Callback](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/button-events/register-callback.md): Learn how to handle user clicks in your scene.
+- [System Based Events](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/button-events/system-based-events.md): Learn how to handle user clicks in your scene.
+- [Advanced Button Events](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/button-events/advanced-button-events.md): Learn how to handle user clicks in your scene.
+- [Proximity Events](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/button-events/proximity-events.md): Detect when a player enters or leaves the proximity of an entity.
+- [Deprecated Functions](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/deprecated-functions.md): Legacy functions
+- [Event Listeners](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/event-listeners.md): Events that the scene can track, related to player actions and scene changes.
+- [External Links](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/external-links.md): Link to other scenes or external sites
+- [Mouse Movement](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/mouse-movement.md): React to the player's mouse movement in real time, to drive drag gestures, spin objects, or steer custom cameras.
+- [NPC Avatars](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/npc-avatars.md): Display and control NPC avatar
+- [Player Avatar](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/player-avatar.md): Learn how to control the player's avatar
+- [Player Physics](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/player-physics.md): Apply forces and impulses to the player's avatar
+- [Raycasting](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/raycasting.md): Use raycasting to trace a line in space and query for collisions with entities in the scene.
+- [Runtime Data](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/runtime-data.md): Obtain data from the context where your scene is running and the scene itself.
+- [Skybox Control](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/skybox-control.md): Change the skybox time
+- [On-screen Controls](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/touch-screen-controls.md): Configure the native on-screen touch controls for your scene.
+- [User Data](https://docs.decentraland.org/creator/scenes-sdk7/interactivity/user-data.md): Obtain data from players as they interact with your scene.
+- [2D UI](https://docs.decentraland.org/creator/scenes-sdk7/2d-ui.md): Create 2D user interfaces for your scenes
+- [Onscreen UI](https://docs.decentraland.org/creator/scenes-sdk7/2d-ui/onscreen-ui.md): Learn how to create a UI for players in your scene. This is useful, for example, to display game-related information.
+- [UI Positioning](https://docs.decentraland.org/creator/scenes-sdk7/2d-ui/ui-positioning.md): Set the position, scale, padding and other properties of UI entities.
+- [UI Background](https://docs.decentraland.org/creator/scenes-sdk7/2d-ui/ui_background.md): Set a background and border of a UI entity.
+- [UI Button Events](https://docs.decentraland.org/creator/scenes-sdk7/2d-ui/ui_button_events.md): Handle button events on UI entities.
+- [UI Input Binding](https://docs.decentraland.org/creator/scenes-sdk7/2d-ui/ui_input_binding.md): Bind input actions to your own UI elements so they drive player input.
+- [UI Special Types](https://docs.decentraland.org/creator/scenes-sdk7/2d-ui/ui_special_types.md): Special entitiy types for the UI, including dropdowns and input boxes.
+- [UI Text](https://docs.decentraland.org/creator/scenes-sdk7/2d-ui/ui_text.md): Write text in UI entities.
+- [Dynamic UI](https://docs.decentraland.org/creator/scenes-sdk7/2d-ui/dynamic-ui.md): Learn how to make UIs dynamic, responding to changes in data.
+- [Networking](https://docs.decentraland.org/creator/scenes-sdk7/networking.md): Build multiplayer and networked experiences
+- [Multiplayer Server](https://docs.decentraland.org/creator/scenes-sdk7/networking/authoritative-servers.md): Build multiplayer Decentraland scenes with a headless multiplayer server.
+- [Network Connections](https://docs.decentraland.org/creator/scenes-sdk7/networking/network-connections.md): How to communicate your scene with external servers and APIs.
+- [Serverless Multiplayer](https://docs.decentraland.org/creator/scenes-sdk7/networking/serverless-multiplayer.md): Sync scene state between players.
+- [Third Party Servers](https://docs.decentraland.org/creator/scenes-sdk7/networking/third-party-servers.md): Build multiplayer Decentraland scenes with a third party server.
+- [Blockchain](https://docs.decentraland.org/creator/scenes-sdk7/blockchain.md): Integrate blockchain functionality into your scenes
+- [Create a dApp](https://docs.decentraland.org/creator/scenes-sdk7/blockchain/create-a-dapp.md): Reference for creating your own Decentralized App
+- [Deploying Your Transactions Server](https://docs.decentraland.org/creator/scenes-sdk7/blockchain/deploying-your-own-transactions-server.md): Provide users with costless transactions
+- [Scene Blockchain Operations](https://docs.decentraland.org/creator/scenes-sdk7/blockchain/scene-blockchain-operations.md): Learn what the SDK offers for performing operations with the Ethereum blockchain
+- [Second Layer](https://docs.decentraland.org/creator/scenes-sdk7/blockchain/second-layer.md): Use Polygon's sidechain in your scene to enable much faster and cheaper blockchain transactions.
+- [Libraries](https://docs.decentraland.org/creator/scenes-sdk7/libraries.md): Reusable libraries for Decentraland SDK7 scenes
+- [Manage Dependencies](https://docs.decentraland.org/creator/scenes-sdk7/libraries/manage-dependencies.md): How to add libraries to a scene
+- [Library Catalog](https://docs.decentraland.org/creator/scenes-sdk7/libraries/libraries.md): Browse available Decentraland SDK7 libraries
+- [Create a Library](https://docs.decentraland.org/creator/scenes-sdk7/libraries/create-libraries.md): Create your own Decentraland libraries to share with others
+- [Programming patterns](https://docs.decentraland.org/creator/scenes-sdk7/programming-patterns.md): Common programming patterns and best practices
+- [Async Functions](https://docs.decentraland.org/creator/scenes-sdk7/programming-patterns/async-functions.md): Learn when and how to run asynchronous functions in your scene's code.
+- [Game Objects](https://docs.decentraland.org/creator/scenes-sdk7/programming-patterns/game-objects.md): Use the game object pattern to make your code more readable and easier to scale.
+- [Mutable Data](https://docs.decentraland.org/creator/scenes-sdk7/programming-patterns/mutable-data.md): Learn how to handle ead-only and mutable data from components
+- [API Reference](https://docs.decentraland.org/creator/scenes-sdk7/api-reference.md)
+- [Testing and Feedback](https://docs.decentraland.org/creator/scenes-sdk7/api-reference/alpha-testing-guidelines.md): Guidelines on how to try out SDK7 and provide feedback
+- [Releases](https://docs.decentraland.org/creator/scenes-sdk7/api-reference/releases.md): Release notes for SDK
+- [API Reference](https://docs.decentraland.org/creator/scenes-sdk7/api-reference/v7-alpha.md)
+- [Version Support Agreement](https://docs.decentraland.org/creator/scenes-sdk7/api-reference/version-support-agreement.md): Version support agreement
+- [Other](https://docs.decentraland.org/creator/scenes-sdk7/other.md): Additional SDK features
+- [Scene Analytics](https://docs.decentraland.org/creator/scenes-sdk7/other/scene-analytics.md): Track player visits, engagement, and retention for your published scenes
+- [Migrate Legacy SDK6 Scenes](https://docs.decentraland.org/creator/scenes-sdk7/other/migrate-legacy-sdk6-scenes.md): Migrate a legacy SDK6 scene to SDK7 using an AI assistant.
+- [Mobile Client](https://docs.decentraland.org/creator/build-for-mobile/mobile-client.md)
+- [Overview](https://docs.decentraland.org/creator/build-for-mobile/mobile-client/overview.md)
+- [Sample Scenes](https://docs.decentraland.org/creator/build-for-mobile/mobile-client/sample-scenes.md): Open-source scenes built by the Decentraland team and optimized for mobile play.
+- [Missing Features](https://docs.decentraland.org/creator/build-for-mobile/mobile-client/missing-features.md): Features available on the Decentraland desktop client that are not yet supported in the mobile app, and known cross-platform inconsistencies.
+- [Hardware Requirements](https://docs.decentraland.org/creator/build-for-mobile/mobile-client/hardware-requirements.md): Minimum and recommended hardware specs for running Decentraland on mobile devices.
+- [Develop](https://docs.decentraland.org/creator/build-for-mobile/develop.md)
+- [Detect the platform](https://docs.decentraland.org/creator/build-for-mobile/develop/detect-platform.md): Detect whether your scene is running on mobile, desktop, or web.
+- [Preview on Mobile](https://docs.decentraland.org/creator/build-for-mobile/develop/preview-on-mobile.md): Preview your scene on a real mobile device from the Creator Hub or the CLI.
+- [Mobile Safe Area](https://docs.decentraland.org/creator/build-for-mobile/develop/safe-area.md): Where scene UI can safely live on mobile — clear of the device's hardware margins and of the client's own controls.
+- [UI Best Practices](https://docs.decentraland.org/creator/build-for-mobile/develop/ui-best-practices.md): DOs and DON'Ts for designing scene UIs that work well on mobile.
+- [Input on Mobile](https://docs.decentraland.org/creator/build-for-mobile/develop/input-on-mobile.md): How input actions map to touch on the Decentraland mobile client.
+- [Performance](https://docs.decentraland.org/creator/build-for-mobile/develop/optimize-performance.md)
+- [Publish](https://docs.decentraland.org/creator/build-for-mobile/publish.md)
+- [Get Featured](https://docs.decentraland.org/creator/build-for-mobile/publish/get-featured.md): How to get your scene featured in the mobile Discover section.
+- [iOS Curation](https://docs.decentraland.org/creator/build-for-mobile/publish/ios-curation.md): How iOS content curation works and how to submit your scene or world for review.
+- [3D Models](https://docs.decentraland.org/creator/3d-modeling-and-animations/3d-models.md): Learn what assets and components are supported in external 3D models and how to configure them before importing them to Decentraland.
+- [Meshes](https://docs.decentraland.org/creator/3d-modeling-and-animations/meshes.md): Learn hat mesh properties are supported on 3D models imported to Decentraland.
+- [Materials](https://docs.decentraland.org/creator/3d-modeling-and-animations/materials.md): Learn what material properties and textures are supported on 3D models imported to Decentraland.
+- [Textures](https://docs.decentraland.org/creator/3d-modeling-and-animations/textures.md): Learn about how textures works in Decentraland
+- [Colliders](https://docs.decentraland.org/creator/3d-modeling-and-animations/colliders.md): Learn how to add colliders to 3D models imported to Decentraland.
+- [Animations](https://docs.decentraland.org/creator/3d-modeling-and-animations/animations.md): Learn How To Create Animations That Can Be Embedded On 3D Models Imported To Decentraland.
+- [Create a Rig](https://docs.decentraland.org/creator/3d-modeling-and-animations/create-a-rig.md): Learn How To Create a Rig for Characters in Decentraland.
+- [Estates Marketplace Integrations](https://docs.decentraland.org/creator/marketplace/estates-marketplace-integrations.md): Important things to have in mind if you want to integrate the Decentraland's Estate in your marketplace
+- [Info from LAND](https://docs.decentraland.org/creator/marketplace/info-from-land.md): Get info from land parcels, estates or addresses using the CLI.
+- [Overview](https://docs.decentraland.org/creator/rewards/overview.md)
+- [Getting Started](https://docs.decentraland.org/creator/rewards/getting-started.md)
+- [Users and Roles](https://docs.decentraland.org/creator/rewards/users-and-roles.md)
+- [Transactions](https://docs.decentraland.org/creator/rewards/transactions.md)
+- [Integrations](https://docs.decentraland.org/creator/rewards/integrations.md)
+
+## Contributor
+
+- [Welcome Contributor](https://docs.decentraland.org/contributor/readme.md)
+- [Overview](https://docs.decentraland.org/contributor/architecture/architecture.md)
+- [Backend Services](https://docs.decentraland.org/contributor/architecture/services.md)
+- [Catalyst Network](https://docs.decentraland.org/contributor/architecture/catalyst.md)
+- [Infrastructure](https://docs.decentraland.org/contributor/architecture/infrastructure.md)
+- [Authentication Chain](https://docs.decentraland.org/contributor/authentication/authchain.md)
+- [Signed Fetch](https://docs.decentraland.org/contributor/authentication/signed-fetch.md)
+- [Glossary](https://docs.decentraland.org/contributor/catalyst/glossary.md)
+- [Realm Selection](https://docs.decentraland.org/contributor/catalyst/realm-selection.md)
+- [Overview](https://docs.decentraland.org/contributor/content/overview.md)
+- [Entities](https://docs.decentraland.org/contributor/content/entities.md)
+- [File System](https://docs.decentraland.org/contributor/content/file-system.md)
+- [Pointers](https://docs.decentraland.org/contributor/content/pointers.md)
+- [Entity Types](https://docs.decentraland.org/contributor/content/entity-types.md)
+- [Scenes](https://docs.decentraland.org/contributor/content/entity-types/scenes.md)
+- [Profiles](https://docs.decentraland.org/contributor/content/entity-types/profiles.md)
+- [Outfits](https://docs.decentraland.org/contributor/content/entity-types/outfits.md)
+- [Wearables](https://docs.decentraland.org/contributor/content/entity-types/wearables.md)
+- [Emotes](https://docs.decentraland.org/contributor/content/entity-types/emotes.md)
+- [Stores](https://docs.decentraland.org/contributor/content/entity-types/stores.md)
+- [Snapshots](https://docs.decentraland.org/contributor/content/snapshots.md)
+- [Collections](https://docs.decentraland.org/contributor/content/collections.md)
+- [Practice](https://docs.decentraland.org/contributor/content/practice.md)
+- [CLI Examples](https://docs.decentraland.org/contributor/content/practice/cli-examples.md)
+- [Python Examples](https://docs.decentraland.org/contributor/content/practice/python-examples.md)
+- [Overview](https://docs.decentraland.org/contributor/scene-runtime/overview.md)
+- [Globals](https://docs.decentraland.org/contributor/scene-runtime/globals.md)
+- [Execution](https://docs.decentraland.org/contributor/scene-runtime/execution.md)
+- [Permissions](https://docs.decentraland.org/contributor/scene-runtime/permissions.md)
+- [Basic Entities](https://docs.decentraland.org/contributor/scene-runtime/basic-entities.md)
+- [Basic Components](https://docs.decentraland.org/contributor/scene-runtime/basic-components.md)
+- [Runtime Modules](https://docs.decentraland.org/contributor/scene-runtime/runtime-modules.md)
+- [Engine API](https://docs.decentraland.org/contributor/scene-runtime/runtime-modules/engine-api.md)
+- [Players](https://docs.decentraland.org/contributor/scene-runtime/runtime-modules/players.md)
+- [User Identity](https://docs.decentraland.org/contributor/scene-runtime/runtime-modules/user-identity.md)
+- [Restricted Actions](https://docs.decentraland.org/contributor/scene-runtime/runtime-modules/restricted-actions.md)
+- [Signed Fetch](https://docs.decentraland.org/contributor/scene-runtime/runtime-modules/signed-fetch.md)
+- [Runtime](https://docs.decentraland.org/contributor/scene-runtime/runtime-modules/runtime.md)
+- [Components](https://docs.decentraland.org/contributor/scene-runtime/components.md)
+- [Component Creation](https://docs.decentraland.org/contributor/scene-runtime/components/component-creation.md)
+- [Overview](https://docs.decentraland.org/contributor/communications/overview.md)
+- [MAIN Realm](https://docs.decentraland.org/contributor/communications/main-realm.md)
+- [Archipelago](https://docs.decentraland.org/contributor/communications/archipelago.md)
+- [Messages](https://docs.decentraland.org/contributor/communications/messages.md)
+- [Transports](https://docs.decentraland.org/contributor/communications/transports.md)
+- [Transport Types](https://docs.decentraland.org/contributor/communications/transport-types.md)
+- [LiveKit](https://docs.decentraland.org/contributor/communications/transport-types/livekit.md)
+- [Websocket](https://docs.decentraland.org/contributor/communications/transport-types/websocket.md)
+- [Signed Login](https://docs.decentraland.org/contributor/communications/transport-types/signed-login.md)
+- [Offline](https://docs.decentraland.org/contributor/communications/transport-types/offline.md)
+- [Simulator](https://docs.decentraland.org/contributor/communications/transport-types/simulator.md)
+- [Overview](https://docs.decentraland.org/contributor/social-service/overview.md)
+- [JavaScript Client](https://docs.decentraland.org/contributor/social-service/js-client.md)
+- [Login](https://docs.decentraland.org/contributor/social-service/login.md)
+- [Get Friends](https://docs.decentraland.org/contributor/social-service/get-friends.md)
+- [Put Friends](https://docs.decentraland.org/contributor/social-service/put-friends.md)
+- [Websocket](https://docs.decentraland.org/contributor/social-service/ws.md)
+- [Getting Started](https://docs.decentraland.org/contributor/tutorials/getting-started.md)
+- [How to Run a Catalyst Node](https://docs.decentraland.org/contributor/tutorials/how-to-run-a-catalyst.md)
+- [How to Create a New Entity Type](https://docs.decentraland.org/contributor/tutorials/how-to-create-new-entity-type.md)
+- [Overview](https://docs.decentraland.org/contributor/contributor-guides/contributor-guides.md)
+- [API Documentation](https://docs.decentraland.org/contributor/contributor-guides/api-documentation.md)
+- [Dependency Management](https://docs.decentraland.org/contributor/contributor-guides/dependency-management.md)
+- [Testing Standards](https://docs.decentraland.org/contributor/contributor-guides/testing-standards.md)
+- [Writing Tests](https://docs.decentraland.org/contributor/contributor-guides/testing-standards/writing-tests.md)
+- [Testing UIs](https://docs.decentraland.org/contributor/contributor-guides/testing-standards/testing-uis.md)
+- [Testing Services (WKC)](https://docs.decentraland.org/contributor/contributor-guides/testing-standards/testing-services-wkc.md)
+- [Testing Services (Deprecated)](https://docs.decentraland.org/contributor/contributor-guides/testing-standards/testing-services-deprecated.md)
+- [Testing E2E](https://docs.decentraland.org/contributor/contributor-guides/testing-standards/testing-e2e.md)
+- [Well-Known Components](https://docs.decentraland.org/contributor/contributor-guides/well-known-components.md)
+- [Components](https://docs.decentraland.org/contributor/contributor-guides/well-known-components/components.md)
+- [Adapters](https://docs.decentraland.org/contributor/contributor-guides/well-known-components/adapters.md)
+- [Logic Components](https://docs.decentraland.org/contributor/contributor-guides/well-known-components/logic-components.md)
+- [Controllers](https://docs.decentraland.org/contributor/contributor-guides/well-known-components/controllers.md)
+- [UI Standards](https://docs.decentraland.org/contributor/contributor-guides/ui-standards.md)
+- [Store Setup](https://docs.decentraland.org/contributor/contributor-guides/ui-standards/store-setup.md)
+- [RTK Query](https://docs.decentraland.org/contributor/contributor-guides/ui-standards/rtk-query.md)
+- [State Management](https://docs.decentraland.org/contributor/contributor-guides/ui-standards/state-management.md)
+- [Component Patterns](https://docs.decentraland.org/contributor/contributor-guides/ui-standards/component-patterns.md)
+- [Web3 Integration](https://docs.decentraland.org/contributor/contributor-guides/ui-standards/web3-integration.md)
+- [Testing & Performance](https://docs.decentraland.org/contributor/contributor-guides/ui-standards/testing-and-performance.md)
+- [Web UI Standards](https://docs.decentraland.org/contributor/contributor-guides/web-ui-standards.md)
+- [Process Overview](https://docs.decentraland.org/contributor/contributor-guides/web-ui-standards/process-overview.md)
+- [Custom Components](https://docs.decentraland.org/contributor/contributor-guides/web-ui-standards/custom-components.md)
+- [Styling & Theming](https://docs.decentraland.org/contributor/contributor-guides/web-ui-standards/styling-and-theming.md)
+- [Migration Guide](https://docs.decentraland.org/contributor/contributor-guides/web-ui-standards/migration.md)
+
+## APIs
+
+- [Developer Platform API](https://docs.decentraland.org/apis/readme.md): Complete API reference for all Decentraland backend services
+- [Realm Provider](https://docs.decentraland.org/apis/apis/realm-provider.md)
+- [Overview](https://docs.decentraland.org/apis/apis/realm-provider/overview.md)
+- [Health](https://docs.decentraland.org/apis/apis/realm-provider/health.md)
+- [Realms](https://docs.decentraland.org/apis/apis/realm-provider/realms.md)
+- [Scenes](https://docs.decentraland.org/apis/apis/realm-provider/scenes.md)
+- [Comms Gatekeeper](https://docs.decentraland.org/apis/apis/comms-gatekeeper.md)
+- [Overview](https://docs.decentraland.org/apis/apis/comms-gatekeeper/overview.md)
+- [Health](https://docs.decentraland.org/apis/apis/comms-gatekeeper/health.md)
+- [Communications](https://docs.decentraland.org/apis/apis/comms-gatekeeper/communications.md)
+- [Scene Administration](https://docs.decentraland.org/apis/apis/comms-gatekeeper/scene-administration.md)
+- [Scene Bans](https://docs.decentraland.org/apis/apis/comms-gatekeeper/scene-bans.md)
+- [Scene Stream Access](https://docs.decentraland.org/apis/apis/comms-gatekeeper/scene-stream-access.md)
+- [Webhooks](https://docs.decentraland.org/apis/apis/comms-gatekeeper/webhooks.md)
+- [Private Messages](https://docs.decentraland.org/apis/apis/comms-gatekeeper/private-messages.md)
+- [Private Voice Chat](https://docs.decentraland.org/apis/apis/comms-gatekeeper/private-voice-chat.md)
+- [Community Voice Chat](https://docs.decentraland.org/apis/apis/comms-gatekeeper/community-voice-chat.md)
+- [Cast 2.0](https://docs.decentraland.org/apis/apis/comms-gatekeeper/cast-2.0.md)
+- [Platform Moderation](https://docs.decentraland.org/apis/apis/comms-gatekeeper/platform-moderation.md)
+- [Archipelago Workers](https://docs.decentraland.org/apis/apis/archipelago-workers.md)
+- [Overview](https://docs.decentraland.org/apis/apis/archipelago-workers/overview.md)
+- [Stats Service](https://docs.decentraland.org/apis/apis/archipelago-workers/stats-service.md)
+- [WebSocket Connector Service](https://docs.decentraland.org/apis/apis/archipelago-workers/websocket-connector-service.md)
+- [Social Service](https://docs.decentraland.org/apis/apis/social-service.md)
+- [Overview](https://docs.decentraland.org/apis/apis/social-service/overview.md)
+- [Request limits](https://docs.decentraland.org/apis/apis/social-service/request-limits.md)
+- [Authentication](https://docs.decentraland.org/apis/apis/social-service/authentication.md)
+- [Communities](https://docs.decentraland.org/apis/apis/social-service/communities.md)
+- [Referrals](https://docs.decentraland.org/apis/apis/social-service/referrals.md)
+- [Community Voice Chats](https://docs.decentraland.org/apis/apis/social-service/community-voice-chats.md)
+- [User Mutes](https://docs.decentraland.org/apis/apis/social-service/user-mutes.md)
+- [Communities V2](https://docs.decentraland.org/apis/apis/social-service/communities-v2.md)
+- [Catalyst](https://docs.decentraland.org/apis/apis/catalyst.md)
+- [Global](https://docs.decentraland.org/apis/apis/catalyst/global.md)
+- [Content Server](https://docs.decentraland.org/apis/apis/catalyst/content-server.md)
+- [Archipelago](https://docs.decentraland.org/apis/apis/catalyst/archipelago.md)
+- [Lambdas](https://docs.decentraland.org/apis/apis/catalyst/lambdas.md)
+- [Lamb2](https://docs.decentraland.org/apis/apis/lamb2.md)
+- [Overview](https://docs.decentraland.org/apis/apis/lamb2/overview.md)
+- [Health](https://docs.decentraland.org/apis/apis/lamb2/health.md)
+- [Users](https://docs.decentraland.org/apis/apis/lamb2/users.md)
+- [Profiles](https://docs.decentraland.org/apis/apis/lamb2/profiles.md)
+- [NFT Collections](https://docs.decentraland.org/apis/apis/lamb2/nft-collections.md)
+- [Third Party](https://docs.decentraland.org/apis/apis/lamb2/third-party.md)
+- [Outfits](https://docs.decentraland.org/apis/apis/lamb2/outfits.md)
+- [Contracts](https://docs.decentraland.org/apis/apis/lamb2/contracts.md)
+- [Internal](https://docs.decentraland.org/apis/apis/lamb2/internal.md)
+- [Worlds](https://docs.decentraland.org/apis/apis/worlds.md)
+- [Overview](https://docs.decentraland.org/apis/apis/worlds/overview.md)
+- [Content Server](https://docs.decentraland.org/apis/apis/worlds/content-server.md)
+- [Asset Bundle Registry](https://docs.decentraland.org/apis/apis/asset-bundle-registry.md)
+- [Overview](https://docs.decentraland.org/apis/apis/asset-bundle-registry/overview.md)
+- [Health](https://docs.decentraland.org/apis/apis/asset-bundle-registry/health.md)
+- [Entities](https://docs.decentraland.org/apis/apis/asset-bundle-registry/entities.md)
+- [Profiles](https://docs.decentraland.org/apis/apis/asset-bundle-registry/profiles.md)
+- [Queues](https://docs.decentraland.org/apis/apis/asset-bundle-registry/queues.md)
+- [Admin](https://docs.decentraland.org/apis/apis/asset-bundle-registry/admin.md)
+- [Denylist](https://docs.decentraland.org/apis/apis/asset-bundle-registry/denylist.md)
+- [Events Notifier](https://docs.decentraland.org/apis/apis/events-notifier.md)
+- [Overview](https://docs.decentraland.org/apis/apis/events-notifier/overview.md)
+- [Event Forwarding](https://docs.decentraland.org/apis/apis/events-notifier/event-forwarding.md)
+- [Admin](https://docs.decentraland.org/apis/apis/events-notifier/admin.md)
+- [Producer Management](https://docs.decentraland.org/apis/apis/events-notifier/producer-management.md)
+- [Blockchain Events](https://docs.decentraland.org/apis/apis/events-notifier/blockchain-events.md)
+- [Badges](https://docs.decentraland.org/apis/apis/badges.md)
+- [Overview](https://docs.decentraland.org/apis/apis/badges/overview.md)
+- [Badges](https://docs.decentraland.org/apis/apis/badges/badges.md)
+- [User Progress](https://docs.decentraland.org/apis/apis/badges/user-progress.md)
+- [Categories](https://docs.decentraland.org/apis/apis/badges/categories.md)
+- [Health](https://docs.decentraland.org/apis/apis/badges/health.md)
+- [Credits Server](https://docs.decentraland.org/apis/apis/credits-server.md)
+- [Overview](https://docs.decentraland.org/apis/apis/credits-server/overview.md)
+- [Status](https://docs.decentraland.org/apis/apis/credits-server/status.md)
+- [Users](https://docs.decentraland.org/apis/apis/credits-server/users.md)
+- [Credits](https://docs.decentraland.org/apis/apis/credits-server/credits.md)
+- [Progress](https://docs.decentraland.org/apis/apis/credits-server/progress.md)
+- [Authentication](https://docs.decentraland.org/apis/apis/credits-server/authentication.md)
+- [Seasons](https://docs.decentraland.org/apis/apis/credits-server/seasons.md)
+- [Admin](https://docs.decentraland.org/apis/apis/credits-server/admin.md)
+- [Notifications Workers](https://docs.decentraland.org/apis/apis/notifications-workers.md)
+- [Overview](https://docs.decentraland.org/apis/apis/notifications-workers/overview.md)
+- [Health](https://docs.decentraland.org/apis/apis/notifications-workers/health.md)
+- [Notifications](https://docs.decentraland.org/apis/apis/notifications-workers/notifications.md)
+- [Subscriptions](https://docs.decentraland.org/apis/apis/notifications-workers/subscriptions.md)
+- [Publishing](https://docs.decentraland.org/apis/apis/notifications-workers/publishing.md)
+- [Auth Server](https://docs.decentraland.org/apis/apis/auth-server.md)
+- [Overview](https://docs.decentraland.org/apis/apis/auth-server/overview.md)
+- [Health](https://docs.decentraland.org/apis/apis/auth-server/health.md)
+- [Requests](https://docs.decentraland.org/apis/apis/auth-server/requests.md)
+- [Identities](https://docs.decentraland.org/apis/apis/auth-server/identities.md)
+- [Onboarding](https://docs.decentraland.org/apis/apis/auth-server/onboarding.md)
+- [Marketplace Server](https://docs.decentraland.org/apis/apis/marketplace-server.md)
+- [Overview](https://docs.decentraland.org/apis/apis/marketplace-server/overview.md)
+- [Health](https://docs.decentraland.org/apis/apis/marketplace-server/health.md)
+- [Catalog](https://docs.decentraland.org/apis/apis/marketplace-server/catalog.md)
+- [Trades](https://docs.decentraland.org/apis/apis/marketplace-server/trades.md)
+- [NFTs](https://docs.decentraland.org/apis/apis/marketplace-server/nfts.md)
+- [Items](https://docs.decentraland.org/apis/apis/marketplace-server/items.md)
+- [Orders](https://docs.decentraland.org/apis/apis/marketplace-server/orders.md)
+- [Contracts](https://docs.decentraland.org/apis/apis/marketplace-server/contracts.md)
+- [Bids](https://docs.decentraland.org/apis/apis/marketplace-server/bids.md)
+- [Sales](https://docs.decentraland.org/apis/apis/marketplace-server/sales.md)
+- [Prices](https://docs.decentraland.org/apis/apis/marketplace-server/prices.md)
+- [Trending](https://docs.decentraland.org/apis/apis/marketplace-server/trending.md)
+- [Statistics](https://docs.decentraland.org/apis/apis/marketplace-server/statistics.md)
+- [Rankings](https://docs.decentraland.org/apis/apis/marketplace-server/rankings.md)
+- [Volume](https://docs.decentraland.org/apis/apis/marketplace-server/volume.md)
+- [Lists](https://docs.decentraland.org/apis/apis/marketplace-server/lists.md)
+- [Picks](https://docs.decentraland.org/apis/apis/marketplace-server/picks.md)
+- [Payments](https://docs.decentraland.org/apis/apis/marketplace-server/payments.md)
+- [ENS](https://docs.decentraland.org/apis/apis/marketplace-server/ens.md)
+- [Accounts](https://docs.decentraland.org/apis/apis/marketplace-server/accounts.md)
+- [Collections](https://docs.decentraland.org/apis/apis/marketplace-server/collections.md)
+- [Events](https://docs.decentraland.org/apis/apis/events.md)
+- [Overview](https://docs.decentraland.org/apis/apis/events/overview.md)
+- [Events](https://docs.decentraland.org/apis/apis/events/events.md)
+- [Event Attendees](https://docs.decentraland.org/apis/apis/events/event-attendees.md)
+- [Event Categories](https://docs.decentraland.org/apis/apis/events/event-categories.md)
+- [Schedules](https://docs.decentraland.org/apis/apis/events/schedules.md)
+- [Profile Settings](https://docs.decentraland.org/apis/apis/events/profile-settings.md)
+- [Profile Subscriptions](https://docs.decentraland.org/apis/apis/events/profile-subscriptions.md)
+- [Poster](https://docs.decentraland.org/apis/apis/events/poster.md)
+- [Places](https://docs.decentraland.org/apis/apis/places.md)
+- [Overview](https://docs.decentraland.org/apis/apis/places/overview.md)
+- [Places](https://docs.decentraland.org/apis/apis/places/places.md)
+- [Worlds](https://docs.decentraland.org/apis/apis/places/worlds.md)
+- [Map](https://docs.decentraland.org/apis/apis/places/map.md)
+- [Categories](https://docs.decentraland.org/apis/apis/places/categories.md)
+- [Favorites](https://docs.decentraland.org/apis/apis/places/favorites.md)
+- [Likes](https://docs.decentraland.org/apis/apis/places/likes.md)
+- [Report](https://docs.decentraland.org/apis/apis/places/report.md)
+- [Rewards](https://docs.decentraland.org/apis/apis/rewards.md)
+- [Overview](https://docs.decentraland.org/apis/apis/rewards/overview.md)
+- [Campaigns](https://docs.decentraland.org/apis/apis/rewards/campaigns.md)
+- [Campaign Keys](https://docs.decentraland.org/apis/apis/rewards/campaign-keys.md)
+- [Rewards](https://docs.decentraland.org/apis/apis/rewards/rewards.md)
+- [Campaign Rewards](https://docs.decentraland.org/apis/apis/rewards/campaign-rewards.md)
+- [Claims](https://docs.decentraland.org/apis/apis/rewards/claims.md)
+- [Referrals](https://docs.decentraland.org/apis/apis/rewards/referrals.md)
+- [Codes](https://docs.decentraland.org/apis/apis/rewards/codes.md)
+- [Captcha](https://docs.decentraland.org/apis/apis/rewards/captcha.md)
+- [Campaign Wallets](https://docs.decentraland.org/apis/apis/rewards/campaign-wallets.md)
+- [Campaign Users](https://docs.decentraland.org/apis/apis/rewards/campaign-users.md)
+- [Campaign Transactions](https://docs.decentraland.org/apis/apis/rewards/campaign-transactions.md)
+- [Collection Transactions](https://docs.decentraland.org/apis/apis/rewards/collection-transactions.md)
+- [Claim Transactions](https://docs.decentraland.org/apis/apis/rewards/claim-transactions.md)
+- [System](https://docs.decentraland.org/apis/apis/rewards/system.md)
+- [Camera reel](https://docs.decentraland.org/apis/apis/camera-reel.md)
+- [Images](https://docs.decentraland.org/apis/apis/camera-reel/images.md)
+- [Atlas Server](https://docs.decentraland.org/apis/apis/atlas-server.md)
+- [Overview](https://docs.decentraland.org/apis/apis/atlas-server/overview.md)
+- [Tiles](https://docs.decentraland.org/apis/apis/atlas-server/tiles.md)
+- [Map Images](https://docs.decentraland.org/apis/apis/atlas-server/map-images.md)
+- [NFT Metadata](https://docs.decentraland.org/apis/apis/atlas-server/nft-metadata.md)
+- [Districts](https://docs.decentraland.org/apis/apis/atlas-server/districts.md)
+- [Health](https://docs.decentraland.org/apis/apis/atlas-server/health.md)
+- [Exploration Games](https://docs.decentraland.org/apis/apis/exploration-games.md)
+- [Overview](https://docs.decentraland.org/apis/apis/exploration-games/overview.md)
+- [Status](https://docs.decentraland.org/apis/apis/exploration-games/status.md)
+- [Games](https://docs.decentraland.org/apis/apis/exploration-games/games.md)
+- [Challenges](https://docs.decentraland.org/apis/apis/exploration-games/challenges.md)
+- [Missions](https://docs.decentraland.org/apis/apis/exploration-games/missions.md)
+- [Progress](https://docs.decentraland.org/apis/apis/exploration-games/progress.md)
+- [Multiplayer](https://docs.decentraland.org/apis/apis/exploration-games/multiplayer.md)
+- [Worlds Content Server](https://docs.decentraland.org/apis/apis/worlds-content-server.md)
+- [Overview](https://docs.decentraland.org/apis/apis/worlds-content-server/overview.md)
+- [Content Server](https://docs.decentraland.org/apis/apis/worlds-content-server/content-server.md)
+- [Builder Server](https://docs.decentraland.org/apis/apis/builder-server.md)
+- [Overview](https://docs.decentraland.org/apis/apis/builder-server/overview.md)
+- [Authentication](https://docs.decentraland.org/apis/apis/builder-server/authentication.md)
+- [Base URL](https://docs.decentraland.org/apis/apis/builder-server/base-url.md)
+- [App](https://docs.decentraland.org/apis/apis/builder-server/app.md)
+- [Projects](https://docs.decentraland.org/apis/apis/builder-server/projects.md)
+- [Pools](https://docs.decentraland.org/apis/apis/builder-server/pools.md)
+- [Pool Groups](https://docs.decentraland.org/apis/apis/builder-server/pool-groups.md)
+- [Pool Likes](https://docs.decentraland.org/apis/apis/builder-server/pool-likes.md)
+- [Collections](https://docs.decentraland.org/apis/apis/builder-server/collections.md)
+- [Items](https://docs.decentraland.org/apis/apis/builder-server/items.md)
+- [Curations](https://docs.decentraland.org/apis/apis/builder-server/curations.md)
+- [Committee](https://docs.decentraland.org/apis/apis/builder-server/committee.md)
+- [Third Party](https://docs.decentraland.org/apis/apis/builder-server/third-party.md)
+- [Rarities](https://docs.decentraland.org/apis/apis/builder-server/rarities.md)
+- [Forum](https://docs.decentraland.org/apis/apis/builder-server/forum.md)
+- [Asset Packs](https://docs.decentraland.org/apis/apis/builder-server/asset-packs.md)
+- [Assets](https://docs.decentraland.org/apis/apis/builder-server/assets.md)
+- [Manifest](https://docs.decentraland.org/apis/apis/builder-server/manifest.md)
+- [Deployments](https://docs.decentraland.org/apis/apis/builder-server/deployments.md)
+- [Storage](https://docs.decentraland.org/apis/apis/builder-server/storage.md)
+- [Share](https://docs.decentraland.org/apis/apis/builder-server/share.md)
+- [Analytics](https://docs.decentraland.org/apis/apis/builder-server/analytics.md)
+- [NFT](https://docs.decentraland.org/apis/apis/builder-server/nft.md)
+- [LAND](https://docs.decentraland.org/apis/apis/builder-server/land.md)
+- [Newsletter](https://docs.decentraland.org/apis/apis/builder-server/newsletter.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.decentraland.org/readme.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

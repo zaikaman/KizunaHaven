@@ -59,14 +59,14 @@ describe('DailyHearthSystem (Asynchronous Daily Prompt)', () => {
       promptId: activePrompt.promptId,
       authorId: 'user-2',
       authorName: 'Kiko',
-      textAnswer: 'Midnight City by M83 ✨',
+      textAnswer: 'Midnight City by M83',
       timestamp: Date.now()
     });
     expect(ans2.success).toBe(true);
 
     const answers = persistence.getAnswers(activePrompt.promptId);
     expect(answers.length).toBe(2);
-    expect(answers.find(a => a.authorId === 'user-2')?.textAnswer).toBe('Midnight City by M83 ✨');
+    expect(answers.find(a => a.authorId === 'user-2')?.textAnswer).toBe('Midnight City by M83');
   });
 
   it('rejects text answers exceeding 140 character limit', () => {

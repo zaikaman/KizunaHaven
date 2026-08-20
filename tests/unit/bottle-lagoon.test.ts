@@ -84,7 +84,7 @@ describe('BottleLagoonSystem (Asynchronous Bottle Mail & Physics)', () => {
     const launch = lagoonA.launchBottle({
       authorId: clientA.id,
       authorName: 'Alice',
-      content: 'Music is life ✨',
+      content: 'Music is life',
       ribbonColor: 'purple'
     });
 

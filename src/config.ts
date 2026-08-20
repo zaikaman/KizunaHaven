@@ -50,16 +50,16 @@ export interface KizunaTier {
 }
 
 export const KIZUNA_TIERS: readonly KizunaTier[] = [
-  { level: 1, title: 'Wanderer', requiredXp: 0, unlockedProp: 'none', icon: '🌱' },
-  { level: 2, title: 'Campfire Friend', requiredXp: 100, unlockedProp: 'sparkler', icon: '✨' },
-  { level: 3, title: 'Lagoon Fisher', requiredXp: 250, unlockedProp: 'paper_lantern', icon: '🏮' },
-  { level: 4, title: 'Harmonizer', requiredXp: 450, unlockedProp: 'lofi_boombox', icon: '📻' },
-  { level: 5, title: 'Tandem Master', requiredXp: 700, unlockedProp: 'stardust_trail', icon: '🌠' },
-  { level: 6, title: 'Haven Keeper', requiredXp: 1000, unlockedProp: 'mini_campfire', icon: '🔥' },
-  { level: 7, title: 'Celestial Duo', requiredXp: 1400, unlockedProp: 'cosmic_wings', icon: '🪽' },
-  { level: 8, title: 'Star Guardian', requiredXp: 1900, unlockedProp: 'aura_crown', icon: '👑' },
-  { level: 9, title: 'Kizuna Elder', requiredXp: 2500, unlockedProp: 'spirit_whistle', icon: '🦊' },
-  { level: 10, title: 'Eternal Bond', requiredXp: 3200, unlockedProp: 'supernova_fireworks', icon: '🎆' }
+  { level: 1, title: 'Wanderer', requiredXp: 0, unlockedProp: 'none', icon: 'LV1' },
+  { level: 2, title: 'Campfire Friend', requiredXp: 100, unlockedProp: 'sparkler', icon: 'LV2' },
+  { level: 3, title: 'Lagoon Fisher', requiredXp: 250, unlockedProp: 'paper_lantern', icon: 'LV3' },
+  { level: 4, title: 'Harmonizer', requiredXp: 450, unlockedProp: 'lofi_boombox', icon: 'LV4' },
+  { level: 5, title: 'Tandem Master', requiredXp: 700, unlockedProp: 'stardust_trail', icon: 'LV5' },
+  { level: 6, title: 'Haven Keeper', requiredXp: 1000, unlockedProp: 'mini_campfire', icon: 'LV6' },
+  { level: 7, title: 'Celestial Duo', requiredXp: 1400, unlockedProp: 'cosmic_wings', icon: 'LV7' },
+  { level: 8, title: 'Star Guardian', requiredXp: 1900, unlockedProp: 'aura_crown', icon: 'LV8' },
+  { level: 9, title: 'Kizuna Elder', requiredXp: 2500, unlockedProp: 'spirit_whistle', icon: 'LV9' },
+  { level: 10, title: 'Eternal Bond', requiredXp: 3200, unlockedProp: 'supernova_fireworks', icon: 'LV10' }
 ] as const;
 
 export const DEFAULT_PROMPTS_POOL: readonly { question: string; category: 'music' | 'story' | 'metaverse' | 'chill' | 'hot-take' }[] = [
@@ -67,7 +67,7 @@ export const DEFAULT_PROMPTS_POOL: readonly { question: string; category: 'music
   { question: "What's the funniest or most chaotic thing that happened to you in a virtual world?", category: 'story' },
   { question: "If you could manifest any superpower right now for 1 hour, what would it be?", category: 'chill' },
   { question: "What is your biggest metaverse hot take that most people disagree with?", category: 'hot-take' },
-  { question: "Describe your current mood using only three emojis.", category: 'chill' },
+  { question: "Describe your current mood using only three words.", category: 'chill' },
   { question: "What is a hobby you secretly want to try but haven't started yet?", category: 'story' },
   { question: "Which track would you play if you were DJing the closing party of the universe?", category: 'music' }
 ] as const;

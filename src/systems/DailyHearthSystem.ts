@@ -34,11 +34,22 @@ export class DailyHearthSystem {
       }
     }
 
+    let options = ['Definitely Yes', 'Maybe / Depends', 'Not really'];
+    if (promptItem.category === 'music') {
+      options = ['Lo-Fi & Ambient', 'Acoustic & Chill', 'Synthwave & Dream', 'R&B & Soul'];
+    } else if (promptItem.category === 'story') {
+      options = ['Hilariously Chaotic', 'Super Wholesome', 'Epic Adventure', 'Secret Mystery'];
+    } else if (promptItem.category === 'chill') {
+      options = ['Warm Tea & Books', 'Stargazing Campfire', 'Late-Night Gaming', 'Peaceful Walk'];
+    } else if (promptItem.category === 'hot-take') {
+      options = ['Spicy Hot-Take', 'Deep Philosophy', 'Futuristic Vision', 'Pure Chaos'];
+    }
+
     return {
       promptId,
       questionText: promptItem.question,
       category: promptItem.category,
-      options: ['Definitely Yes ✨', 'Maybe / Depends 🤔', 'Not really 😅'],
+      options,
       voteDistribution,
       activeDate: dateStr
     };

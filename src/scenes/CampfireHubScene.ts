@@ -111,7 +111,7 @@ export class CampfireHubScene {
         entity: this.campfireEntity,
         opts: {
           button: InputAction.IA_POINTER,
-          hoverText: '🔥 Gather at Campfire (Daily Prompt)'
+          hoverText: 'Gather at Campfire (Daily Prompt)'
         }
       },
       () => {
@@ -214,7 +214,7 @@ export class CampfireHubScene {
         entity: this.lumiEntity,
         opts: {
           button: InputAction.IA_POINTER,
-          hoverText: '✨ Pet Lumi the Spirit Companion'
+          hoverText: 'Interact with Lumi Spirit Companion'
         }
       },
       () => {
@@ -253,7 +253,7 @@ export class CampfireHubScene {
           entity: bottleEntity,
           opts: {
             button: InputAction.IA_POINTER,
-            hoverText: `🌊 Fish out bottle from ${bottle.authorName}`
+            hoverText: `Inspect bottle from ${bottle.authorName}`
           }
         },
         () => {
