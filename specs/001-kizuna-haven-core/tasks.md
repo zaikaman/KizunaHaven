@@ -19,10 +19,10 @@
 
 **Purpose**: Project initialization, SDK 7 dependencies, and testing harness setup
 
-- [ ] T001 Initialize package.json with Decentraland SDK 7, React-ECS, and Vitest in package.json
-- [ ] T002 [P] Configure strict TypeScript compiler options in tsconfig.json
-- [ ] T003 [P] Create Decentraland World metadata and spawn configuration in scene.json
-- [ ] T004 [P] Create world configuration constants, colors, and level tables in src/config.ts
+- [x] T001 Initialize package.json with Decentraland SDK 7, React-ECS, and Vitest in package.json
+- [x] T002 [P] Configure strict TypeScript compiler options in tsconfig.json
+- [x] T003 [P] Create Decentraland World metadata and spawn configuration in scene.json
+- [x] T004 [P] Create world configuration constants, colors, and level tables in src/config.ts
 
 ---
 

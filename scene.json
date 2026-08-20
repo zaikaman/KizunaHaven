@@ -1,0 +1,36 @@
+{
+  "main": "bin/index.js",
+  "runtimeVersion": "7",
+  "scene": {
+    "parcels": [
+      "0,0",
+      "0,1",
+      "1,0",
+      "1,1"
+    ],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "default",
+      "default": true,
+      "position": {
+        "x": [15, 17],
+        "y": [1, 1],
+        "z": [12, 14]
+      },
+      "cameraTarget": {
+        "x": 16,
+        "y": 1,
+        "z": 20
+      }
+    }
+  ],
+  "worldConfiguration": {
+    "name": "kizunahaven.dcl.eth"
+  },
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE"
+  ],
+  "featureToggles": {}
+}
