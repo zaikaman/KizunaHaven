@@ -32,11 +32,11 @@
 
 **⚠️ CRITICAL**: No user story work can begin until this phase is complete
 
-- [ ] T005 [P] Implement core TypeScript data models and interfaces in src/types/index.ts
-- [ ] T006 [P] Implement base MessageBus network broadcaster and listener in src/network/StateBroadcaster.ts
-- [ ] T007 [P] Implement local and session storage adapter in src/network/Persistence.ts
-- [ ] T008 Implement main world bootstrap and ECS system registration in src/index.ts
-- [ ] T009 [P] Create Vitest mocked ECS engine environment and helpers in tests/setup.ts
+- [x] T005 [P] Implement core TypeScript data models and interfaces in src/types/index.ts
+- [x] T006 [P] Implement base MessageBus network broadcaster and listener in src/network/StateBroadcaster.ts
+- [x] T007 [P] Implement local and session storage adapter in src/network/Persistence.ts
+- [x] T008 Implement main world bootstrap and ECS system registration in src/index.ts
+- [x] T009 [P] Create Vitest mocked ECS engine environment and helpers in tests/setup.ts
 
 **Checkpoint**: Foundation ready — user story implementation can now begin in parallel
 
