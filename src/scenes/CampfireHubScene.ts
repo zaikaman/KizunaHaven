@@ -11,6 +11,7 @@ import {
   MeshCollider,
   Material,
   GltfContainer,
+  Animator,
   pointerEventsSystem,
   InputAction
 } from '@dcl/sdk/ecs';
@@ -33,7 +34,6 @@ export class CampfireHubScene {
 
   // Scene entities
   private campfireEntity!: Entity;
-  private fireGlowEntity!: Entity;
   private lumiEntity!: Entity;
   private bottleEntities: { entity: Entity; bottleId: string; offset: number }[] = [];
 
@@ -54,7 +54,7 @@ export class CampfireHubScene {
     this.buildLumiCompanion();
     this.spawnLagoonBottles();
 
-    // Register frame loop for water bobbing & campfire glow animation
+    // Register frame loop for water bobbing & companion animations
     let elapsedSeconds = 0;
     engine.addSystem((dt: number) => {
       elapsedSeconds += dt;
@@ -80,30 +80,23 @@ export class CampfireHubScene {
   private buildCampfireHearth(): void {
     const { x, y, z } = WORLD_CONFIG.CAMPFIRE_CENTER;
 
-    // Stone Ring Hearth
+    // 3D Animated Low-Poly Campfire Hearth Model (models/fireplace.glb)
     this.campfireEntity = engine.addEntity();
     Transform.create(this.campfireEntity, {
-      position: Vector3.create(x, y + 0.15, z),
-      scale: Vector3.create(2.2, 0.3, 2.2)
+      position: Vector3.create(x, y, z),
+      scale: Vector3.create(1.2, 1.2, 1.2)
     });
-    MeshRenderer.setCylinder(this.campfireEntity);
-    MeshCollider.setCylinder(this.campfireEntity);
-    Material.setPbrMaterial(this.campfireEntity, {
-      albedoColor: Color4.create(0.25, 0.25, 0.28, 1.0), // Slate cobblestone
-      roughness: 0.9
-    });
-
-    // Flickering Fire Mesh
-    this.fireGlowEntity = engine.addEntity();
-    Transform.create(this.fireGlowEntity, {
-      position: Vector3.create(x, y + 0.6, z),
-      scale: Vector3.create(0.9, 1.0, 0.9)
-    });
-    MeshRenderer.setCylinder(this.fireGlowEntity);
-    Material.setPbrMaterial(this.fireGlowEntity, {
-      albedoColor: Color4.create(1.0, 0.5, 0.1, 0.9),
-      emissiveColor: Color4.create(1.0, 0.45, 0.05, 1.0),
-      emissiveIntensity: 3.5
+    GltfContainer.create(this.campfireEntity, { src: 'models/fireplace.glb' });
+    Animator.create(this.campfireEntity, {
+      states: [
+        {
+          clip: 'Burn',
+          playing: true,
+          loop: true,
+          speed: 1.0,
+          weight: 1.0
+        }
+      ]
     });
 
     // Tap Campfire -> Open Daily Prompt
@@ -212,19 +205,10 @@ export class CampfireHubScene {
     });
     GltfContainer.create(lumiBody, { src: 'models/lumi.glb' });
 
-    // Soft starlight aura shell; doubles as the pointer interaction proxy
-    MeshRenderer.setSphere(this.lumiEntity);
-    Material.setPbrMaterial(this.lumiEntity, {
-      albedoColor: Color4.create(1.0, 0.92, 0.45, 0.1),
-      emissiveColor: Color4.create(1.0, 0.85, 0.2, 1.0),
-      emissiveIntensity: 0.8,
-      transparencyMode: 2
-    });
-
     // Tap Lumi -> Interaction Cheer
     pointerEventsSystem.onPointerDown(
       {
-        entity: this.lumiEntity,
+        entity: lumiBody,
         opts: {
           button: InputAction.IA_POINTER,
           hoverText: 'Interact with Lumi Spirit Companion'
@@ -296,14 +280,7 @@ export class CampfireHubScene {
       }
     });
 
-    // 2. Campfire Flickering Glow
-    if (Transform.has(this.fireGlowEntity)) {
-      const flicker = 0.9 + Math.sin(timeSeconds * 8.0) * 0.15;
-      const tf = Transform.getMutable(this.fireGlowEntity);
-      tf.scale = Vector3.create(flicker, 1.0 + Math.cos(timeSeconds * 6.0) * 0.1, flicker);
-    }
-
-    // 3. Track the local player so Lumi can follow them around
+    // 2. Track the local player so Lumi can follow them around
     const playerTf = Transform.getOrNull(engine.PlayerEntity);
     if (playerTf) {
       this.lumiSystem.updatePlayerPosition('local-player', {
@@ -313,7 +290,7 @@ export class CampfireHubScene {
       });
     }
 
-    // 4. Lumi Position Lerp
+    // 3. Lumi Position Lerp
     this.lumiSystem.tick(dt);
     if (Transform.has(this.lumiEntity)) {
       const lumiState = this.lumiSystem.getState();
