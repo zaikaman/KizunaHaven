@@ -10,4 +10,5 @@ specs/001-kizuna-haven-core/plan.md
 
 ## Code Quality & Style Guidelines
 - No emojis anywhere in the codebase (UI, text, labels, strings, comments, logs, or documentation). Use clean, professional typography and standard text/brackets (e.g. '[X]', '->', '[*]') instead.
+- For relevant docs, have a look at decentralanddocs.txt
 
