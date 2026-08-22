@@ -46,12 +46,13 @@ describe('Fireplace 3D Asset Forge & Animation', () => {
 
   it('assembles multi-node fireplace hierarchy with stone hearth, logs, layered flames, and sparks', () => {
     const nodes = buildFireplaceNodes();
-    expect(nodes.length).toBe(12);
+    expect(nodes.length).toBe(13);
 
     const nodeNames = nodes.map((n) => n.name);
     expect(nodeNames).toContain('HearthAndLogs');
-    expect(nodeNames).toContain('FlameCore');
+    expect(nodeNames).toContain('FlameMain');
     expect(nodeNames).toContain('FlameMid');
+    expect(nodeNames).toContain('FlameCore');
     expect(nodeNames).toContain('FlameOuter1');
     expect(nodeNames).toContain('FlameOuter2');
     expect(nodeNames).toContain('FlameOuter3');
@@ -88,12 +89,12 @@ describe('Fireplace 3D Asset Forge & Animation', () => {
 
     expect(gltf.asset.version).toBe('2.0');
     expect(gltf.scenes).toHaveLength(1);
-    expect(gltf.nodes.length).toBeGreaterThanOrEqual(13);
-    expect(gltf.meshes.length).toBe(12);
+    expect(gltf.nodes.length).toBeGreaterThanOrEqual(14);
+    expect(gltf.meshes.length).toBe(13);
     expect(gltf.materials).toHaveLength(FIREPLACE_MATERIALS.length);
   });
 
-  it('contains valid baked "Burn" keyframe animation with 29 active channels', () => {
+  it('contains valid baked "Burn" keyframe animation with 32 active channels', () => {
     const glb = buildFireplaceGlb();
     const jsonLen = glb.readUInt32LE(12);
     const gltf = JSON.parse(glb.subarray(20, 20 + jsonLen).toString('utf8'));
@@ -103,8 +104,8 @@ describe('Fireplace 3D Asset Forge & Animation', () => {
 
     const anim = gltf.animations[0];
     expect(anim.name).toBe('Burn');
-    expect(anim.channels.length).toBe(29);
-    expect(anim.samplers.length).toBe(29);
+    expect(anim.channels.length).toBe(32);
+    expect(anim.samplers.length).toBe(32);
 
     // Verify animation targets exist and target paths are valid
     const validPaths = new Set(['translation', 'rotation', 'scale']);

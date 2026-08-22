@@ -373,64 +373,64 @@ export function sparkDiamond(size = 0.06): Geo {
 export const FIREPLACE_MATERIALS = [
   {
     name: 'StoneSlate',
-    baseColor: [0.34, 0.35, 0.38, 1.0],
+    baseColor: [0.30, 0.31, 0.34, 1.0],
     emissive: [0.0, 0.0, 0.0],
     roughness: 0.92,
     metallic: 0.05
   },
   {
     name: 'StoneGranite',
-    baseColor: [0.46, 0.42, 0.38, 1.0],
+    baseColor: [0.42, 0.38, 0.35, 1.0],
     emissive: [0.0, 0.0, 0.0],
     roughness: 0.88,
     metallic: 0.05
   },
   {
     name: 'LogCedar',
-    baseColor: [0.36, 0.22, 0.14, 1.0],
-    emissive: [0.02, 0.01, 0.0],
+    baseColor: [0.34, 0.20, 0.12, 1.0],
+    emissive: [0.0, 0.0, 0.0],
     roughness: 0.85,
     metallic: 0.0
   },
   {
     name: 'LogWoodCore',
-    baseColor: [0.72, 0.54, 0.34, 1.0],
-    emissive: [0.04, 0.02, 0.0],
+    baseColor: [0.65, 0.46, 0.28, 1.0],
+    emissive: [0.0, 0.0, 0.0],
     roughness: 0.8,
     metallic: 0.0
   },
   {
     name: 'CharcoalEmber',
-    baseColor: [0.18, 0.12, 0.10, 1.0],
-    emissive: [0.75, 0.28, 0.04],
-    roughness: 0.9,
-    metallic: 0.0
-  },
-  {
-    name: 'FlameCore',
-    baseColor: [1.0, 0.96, 0.68, 1.0],
-    emissive: [1.0, 0.94, 0.48],
-    roughness: 0.15,
-    metallic: 0.0
-  },
-  {
-    name: 'FlameMid',
-    baseColor: [0.98, 0.52, 0.10, 1.0],
-    emissive: [0.95, 0.44, 0.06],
-    roughness: 0.25,
+    baseColor: [0.10, 0.08, 0.07, 1.0],
+    emissive: [0.28, 0.08, 0.01],
+    roughness: 0.95,
     metallic: 0.0
   },
   {
     name: 'FlameOuter',
-    baseColor: [0.92, 0.22, 0.05, 1.0],
-    emissive: [0.85, 0.16, 0.02],
-    roughness: 0.3,
+    baseColor: [0.95, 0.32, 0.05, 1.0],
+    emissive: [0.92, 0.28, 0.03],
+    roughness: 0.2,
+    metallic: 0.0
+  },
+  {
+    name: 'FlameMid',
+    baseColor: [0.98, 0.60, 0.08, 1.0],
+    emissive: [0.96, 0.52, 0.06],
+    roughness: 0.2,
+    metallic: 0.0
+  },
+  {
+    name: 'FlameCore',
+    baseColor: [1.0, 0.82, 0.22, 1.0],
+    emissive: [1.0, 0.78, 0.18],
+    roughness: 0.15,
     metallic: 0.0
   },
   {
     name: 'StardustSpark',
-    baseColor: [1.0, 0.96, 0.72, 1.0],
-    emissive: [1.0, 0.92, 0.40],
+    baseColor: [1.0, 0.88, 0.35, 1.0],
+    emissive: [1.0, 0.82, 0.28],
     roughness: 0.1,
     metallic: 0.0
   }
@@ -441,9 +441,9 @@ export const MAT_STONE_GRANITE = 1;
 export const MAT_LOG_CEDAR = 2;
 export const MAT_LOG_CORE = 3;
 export const MAT_CHARCOAL_EMBER = 4;
-export const MAT_FLAME_CORE = 5;
+export const MAT_FLAME_OUTER = 5;
 export const MAT_FLAME_MID = 6;
-export const MAT_FLAME_OUTER = 7;
+export const MAT_FLAME_CORE = 7;
 export const MAT_STARDUST_SPARK = 8;
 
 // ---------------------------------------------------------------------------
@@ -524,23 +524,31 @@ export function buildFireplaceNodes(): ModelNodeDef[] {
   addHearth(MAT_LOG_CEDAR, log4.body, { translate: [-0.05, 0.16, 0.42], rotateDeg: [0, 80, 85] });
   if (log4.caps) addHearth(MAT_LOG_CORE, log4.caps, { translate: [-0.05, 0.16, 0.42], rotateDeg: [0, 80, 85] });
 
-  // 2. Animated Inner Flame Core (Incandescent White-Gold Spire)
-  const flameCoreParts: Part[] = [
+  // 2. Animated Outer Main Flame Plume (Fiery Orange Envelope - Tallest & Most Prominent)
+  const flameMainParts: Part[] = [
     {
-      material: MAT_FLAME_CORE,
-      geo: transformGeo(stylizedSpiralFlame(1.25, 0.14, 0.20, 0.8, 5, 0.15), { translate: [0, 0.05, 0] })
+      material: MAT_FLAME_OUTER,
+      geo: transformGeo(stylizedSpiralFlame(1.28, 0.26, 0.36, 1.2, 6, 0.22), { translate: [0, 0.02, 0] })
     }
   ];
 
-  // 3. Animated Middle Spiral Flame Cone (Vibrant Fiery Orange)
+  // 3. Animated Middle Spiral Flame Cone (Warm Golden Orange - Layered Inside)
   const flameMidParts: Part[] = [
     {
       material: MAT_FLAME_MID,
-      geo: transformGeo(stylizedSpiralFlame(1.05, 0.25, 0.34, 1.4, 6, 0.25), { translate: [0, 0.02, 0] })
+      geo: transformGeo(stylizedSpiralFlame(0.95, 0.18, 0.26, 1.0, 6, 0.18), { translate: [0, 0.04, 0] })
     }
   ];
 
-  // 4. Animated Outer Licking Flame Tongue 1 (Front Left)
+  // 4. Animated Inner Flame Core (Warm Glowing Amber Heart - Deep at Hearth Base)
+  const flameCoreParts: Part[] = [
+    {
+      material: MAT_FLAME_CORE,
+      geo: transformGeo(stylizedSpiralFlame(0.55, 0.12, 0.16, 0.6, 5, 0.12), { translate: [0, 0.06, 0] })
+    }
+  ];
+
+  // 5. Animated Outer Licking Flame Tongue 1 (Front Left)
   const flameOuter1Parts: Part[] = [
     {
       material: MAT_FLAME_OUTER,
@@ -552,7 +560,7 @@ export function buildFireplaceNodes(): ModelNodeDef[] {
     }
   ];
 
-  // 5. Animated Outer Licking Flame Tongue 2 (Front Right)
+  // 6. Animated Outer Licking Flame Tongue 2 (Front Right)
   const flameOuter2Parts: Part[] = [
     {
       material: MAT_FLAME_OUTER,
@@ -564,19 +572,19 @@ export function buildFireplaceNodes(): ModelNodeDef[] {
     }
   ];
 
-  // 6. Animated Outer Licking Flame Tongue 3 (Back)
+  // 7. Animated Outer Licking Flame Tongue 3 (Back)
   const flameOuter3Parts: Part[] = [
     {
       material: MAT_FLAME_OUTER,
       geo: transformGeo(curvedFlameTongue(0.78, 0.15, 0.22, 18, 5), { translate: [0, 0, 0] })
     },
     {
-      material: MAT_FLAME_CORE,
-      geo: transformGeo(curvedFlameTongue(0.44, 0.08, 0.12, 12, 5), { translate: [0, 0.03, 0] })
+      material: MAT_FLAME_MID,
+      geo: transformGeo(curvedFlameTongue(0.48, 0.09, 0.13, 12, 5), { translate: [0, 0.03, 0] })
     }
   ];
 
-  // 7-12: 6 Independent Ascending Stardust Spark Crystals
+  // 8-13: 6 Independent Ascending Stardust Spark Crystals
   const sparkNodes: ModelNodeDef[] = [];
   for (let i = 0; i < 6; i++) {
     const angle = (i / 6) * Math.PI * 2;
@@ -586,7 +594,7 @@ export function buildFireplaceNodes(): ModelNodeDef[] {
       parts: [
         {
           material: MAT_STARDUST_SPARK,
-          geo: sparkDiamond(0.05 + (i % 3) * 0.015)
+          geo: sparkDiamond(0.045 + (i % 3) * 0.01)
         }
       ],
       initialTranslation: [Math.cos(angle) * r, 0.95 + (i % 3) * 0.22, Math.sin(angle) * r]
@@ -595,8 +603,9 @@ export function buildFireplaceNodes(): ModelNodeDef[] {
 
   return [
     { name: 'HearthAndLogs', parts: hearthParts },
-    { name: 'FlameCore', parts: flameCoreParts, initialTranslation: [0, 0.22, 0] },
+    { name: 'FlameMain', parts: flameMainParts, initialTranslation: [0, 0.22, 0] },
     { name: 'FlameMid', parts: flameMidParts, initialTranslation: [0, 0.22, 0] },
+    { name: 'FlameCore', parts: flameCoreParts, initialTranslation: [0, 0.22, 0] },
     { name: 'FlameOuter1', parts: flameOuter1Parts, initialTranslation: [-0.22, 0.22, 0.12] },
     { name: 'FlameOuter2', parts: flameOuter2Parts, initialTranslation: [0.20, 0.20, 0.10] },
     { name: 'FlameOuter3', parts: flameOuter3Parts, initialTranslation: [0.0, 0.24, -0.22] },
@@ -844,51 +853,74 @@ export function buildFireplaceGlb(): Buffer {
   // Node indices:
   // Node 0: Root
   // Node 1: HearthAndLogs
-  // Node 2: FlameCore
-  // Node 3: FlameMid
-  // Node 4: FlameOuter1
-  // Node 5: FlameOuter2
-  // Node 6: FlameOuter3
-  // Node 7..12: SparkNode0..5
+  // Node 2: FlameMain (Outer Fiery Orange Envelope)
+  // Node 3: FlameMid (Middle Golden Layer)
+  // Node 4: FlameCore (Inner Glowing Amber Heart)
+  // Node 5: FlameOuter1 (Front-Left Tongue)
+  // Node 6: FlameOuter2 (Front-Right Tongue)
+  // Node 7: FlameOuter3 (Rear Tongue)
+  // Node 8..13: SparkNode0..5
 
-  // 1. FlameCore (Incandescent Heart): Steady breathing + slow clockwise swirl
-  const coreScale: number[] = [];
-  const coreRot: number[] = [];
+  // 1. FlameMain (Outer Orange Plume): Continuous upward vortex rotation + wave
+  const mainScale: number[] = [];
+  const mainRot: number[] = [];
+  const mainTrans: number[] = [];
   keyframeTimes.forEach((t) => {
     const p = (t / duration) * Math.PI * 2;
-    const sy = 1.0 + Math.sin(p * 2) * 0.07;
-    const sxz = 1.0 - Math.sin(p * 2) * 0.035;
-    coreScale.push(sxz, sy, sxz);
+    const sy = 1.0 + Math.sin(p * 2 + 0.5) * 0.08;
+    const sxz = 1.0 - Math.sin(p * 2 + 0.5) * 0.035;
+    mainScale.push(sxz, sy, sxz);
 
     const degY = ((t / duration) * 360) % 360;
-    coreRot.push(...eulerToQuat(0, degY, 0));
-  });
-  addAnimationChannel(2, 'scale', coreScale);
-  addAnimationChannel(2, 'rotation', coreRot);
+    const swayX = Math.sin(p) * 2.0;
+    const swayZ = Math.cos(p) * 2.0;
+    mainRot.push(...eulerToQuat(swayX, degY, swayZ));
 
-  // 2. FlameMid (Helical Cone): Continuous upward optical vortex via rotation + gentle wave
+    const ty = 0.22 + Math.sin(p * 2) * 0.012;
+    mainTrans.push(0, ty, 0);
+  });
+  addAnimationChannel(2, 'scale', mainScale);
+  addAnimationChannel(2, 'rotation', mainRot);
+  addAnimationChannel(2, 'translation', mainTrans);
+
+  // 2. FlameMid (Middle Golden Cone): Counter-phase swirl + wave
   const midScale: number[] = [];
   const midRot: number[] = [];
   const midTrans: number[] = [];
   keyframeTimes.forEach((t) => {
     const p = (t / duration) * Math.PI * 2;
-    const sy = 1.0 + Math.sin(p * 2 + 1.2) * 0.09;
-    const sxz = 1.0 - Math.sin(p * 2 + 1.2) * 0.04;
+    const sy = 1.0 + Math.sin(p * 2 + 1.8) * 0.10;
+    const sxz = 1.0 - Math.sin(p * 2 + 1.8) * 0.04;
     midScale.push(sxz, sy, sxz);
 
     const degY = ((t / duration) * 360) % 360;
-    const swayX = Math.sin(p) * 2.5;
-    const swayZ = Math.cos(p) * 2.5;
+    const swayX = Math.cos(p) * 2.5;
+    const swayZ = -Math.sin(p) * 2.5;
     midRot.push(...eulerToQuat(swayX, degY, swayZ));
 
-    const ty = 0.22 + Math.sin(p * 2) * 0.015;
+    const ty = 0.22 + Math.cos(p * 2) * 0.015;
     midTrans.push(0, ty, 0);
   });
   addAnimationChannel(3, 'scale', midScale);
   addAnimationChannel(3, 'rotation', midRot);
   addAnimationChannel(3, 'translation', midTrans);
 
-  // 3. FlameOuter1 (Front-Left Tongue): Out-of-phase curling wave
+  // 3. FlameCore (Warm Amber Hearth Heart): Rhythmic breathing + slow turn
+  const coreScale: number[] = [];
+  const coreRot: number[] = [];
+  keyframeTimes.forEach((t) => {
+    const p = (t / duration) * Math.PI * 2;
+    const sy = 1.0 + Math.sin(p * 2) * 0.06;
+    const sxz = 1.0 - Math.sin(p * 2) * 0.03;
+    coreScale.push(sxz, sy, sxz);
+
+    const degY = ((t / duration) * 180) % 360;
+    coreRot.push(...eulerToQuat(0, degY, 0));
+  });
+  addAnimationChannel(4, 'scale', coreScale);
+  addAnimationChannel(4, 'rotation', coreRot);
+
+  // 4. FlameOuter1 (Front-Left Tongue): Out-of-phase curling wave
   const outer1Scale: number[] = [];
   const outer1Rot: number[] = [];
   keyframeTimes.forEach((t) => {
@@ -900,10 +932,10 @@ export function buildFireplaceGlb(): Buffer {
     const degZ = -15 + Math.cos(p * 2) * 6.0;
     outer1Rot.push(...eulerToQuat(degX, 30, degZ));
   });
-  addAnimationChannel(4, 'scale', outer1Scale);
-  addAnimationChannel(4, 'rotation', outer1Rot);
+  addAnimationChannel(5, 'scale', outer1Scale);
+  addAnimationChannel(5, 'rotation', outer1Rot);
 
-  // 4. FlameOuter2 (Front-Right Tongue)
+  // 5. FlameOuter2 (Front-Right Tongue)
   const outer2Scale: number[] = [];
   const outer2Rot: number[] = [];
   keyframeTimes.forEach((t) => {
@@ -915,10 +947,10 @@ export function buildFireplaceGlb(): Buffer {
     const degZ = 18 + Math.sin(p * 2) * 6.0;
     outer2Rot.push(...eulerToQuat(degX, -35, degZ));
   });
-  addAnimationChannel(5, 'scale', outer2Scale);
-  addAnimationChannel(5, 'rotation', outer2Rot);
+  addAnimationChannel(6, 'scale', outer2Scale);
+  addAnimationChannel(6, 'rotation', outer2Rot);
 
-  // 5. FlameOuter3 (Rear Tongue)
+  // 6. FlameOuter3 (Rear Tongue)
   const outer3Scale: number[] = [];
   const outer3Rot: number[] = [];
   keyframeTimes.forEach((t) => {
@@ -930,12 +962,12 @@ export function buildFireplaceGlb(): Buffer {
     const degZ = Math.cos(p * 2) * 5.0;
     outer3Rot.push(...eulerToQuat(degX, 180, degZ));
   });
-  addAnimationChannel(6, 'scale', outer3Scale);
-  addAnimationChannel(6, 'rotation', outer3Rot);
+  addAnimationChannel(7, 'scale', outer3Scale);
+  addAnimationChannel(7, 'rotation', outer3Rot);
 
-  // 6-11: Sparks 0..5 (Continuous Staggered Buoyant Ascent Vortex)
+  // 7-12: Sparks 0..5 (Continuous Staggered Buoyant Ascent Vortex)
   for (let i = 0; i < 6; i++) {
-    const sparkNodeIdx = 7 + i;
+    const sparkNodeIdx = 8 + i;
     const trans: number[] = [];
     const scale: number[] = [];
     const rot: number[] = [];
